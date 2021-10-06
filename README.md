@@ -1,4 +1,4 @@
-# Week 2 Project: Restaurant Menu App
+# Week 2 Project: Jahez
 
 ## Project Overview
 - Displays list of restaurants
