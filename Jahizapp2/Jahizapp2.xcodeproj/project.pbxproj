@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861C4248270DD3D400263936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C4247270DD3D400263936 /* AppDelegate.swift */; };
+		861C424A270DD3D400263936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C4249270DD3D400263936 /* SceneDelegate.swift */; };
+		861C424F270DD3D400263936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861C424D270DD3D400263936 /* Main.storyboard */; };
+		861C4251270DD3D600263936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861C4250270DD3D600263936 /* Assets.xcassets */; };
+		861C4254270DD3D600263936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861C4252270DD3D600263936 /* LaunchScreen.storyboard */; };
+		867E9CC9270E000000C8DAC4 /* restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E9CC8270E000000C8DAC4 /* restaurants.swift */; };
+		867E9CCF270E13EA00C8DAC4 /* ResturantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E9CCE270E13EA00C8DAC4 /* ResturantCell.swift */; };
+		867E9CD1270E1DB000C8DAC4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E9CD0270E1DB000C8DAC4 /* MenuCell.swift */; };
+		867E9CD5270E1E5100C8DAC4 /* ResturantlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E9CD4270E1E5100C8DAC4 /* ResturantlistVC.swift */; };
+		867E9CD7270E1E9A00C8DAC4 /* ResturantMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E9CD6270E1E9A00C8DAC4 /* ResturantMenuVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		861C4244270DD3D400263936 /* Jahizapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jahizapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861C4247270DD3D400263936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		861C4249270DD3D400263936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		861C424E270DD3D400263936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		861C4250270DD3D600263936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		861C4253270DD3D600263936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		861C4255270DD3D600263936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		867E9CC8270E000000C8DAC4 /* restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurants.swift; sourceTree = "<group>"; };
+		867E9CCE270E13EA00C8DAC4 /* ResturantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantCell.swift; sourceTree = "<group>"; };
+		867E9CD0270E1DB000C8DAC4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		867E9CD4270E1E5100C8DAC4 /* ResturantlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantlistVC.swift; sourceTree = "<group>"; };
+		867E9CD6270E1E9A00C8DAC4 /* ResturantMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantMenuVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861C4241270DD3D400263936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861C423B270DD3D400263936 = {
+			isa = PBXGroup;
+			children = (
+				861C4246270DD3D400263936 /* Jahizapp2 */,
+				861C4245270DD3D400263936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		861C4245270DD3D400263936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861C4244270DD3D400263936 /* Jahizapp2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861C4246270DD3D400263936 /* Jahizapp2 */ = {
+			isa = PBXGroup;
+			children = (
+				867E9CCD270E135200C8DAC4 /* Screen 2 */,
+				867E9CCA270E12F200C8DAC4 /* Screen 1 */,
+				861C4247270DD3D400263936 /* AppDelegate.swift */,
+				861C4249270DD3D400263936 /* SceneDelegate.swift */,
+				861C424D270DD3D400263936 /* Main.storyboard */,
+				861C4250270DD3D600263936 /* Assets.xcassets */,
+				861C4252270DD3D600263936 /* LaunchScreen.storyboard */,
+				861C4255270DD3D600263936 /* Info.plist */,
+				867E9CC8270E000000C8DAC4 /* restaurants.swift */,
+			);
+			path = Jahizapp2;
+			sourceTree = "<group>";
+		};
+		867E9CCA270E12F200C8DAC4 /* Screen 1 */ = {
+			isa = PBXGroup;
+			children = (
+				867E9CCE270E13EA00C8DAC4 /* ResturantCell.swift */,
+				867E9CD4270E1E5100C8DAC4 /* ResturantlistVC.swift */,
+			);
+			path = "Screen 1";
+			sourceTree = "<group>";
+		};
+		867E9CCD270E135200C8DAC4 /* Screen 2 */ = {
+			isa = PBXGroup;
+			children = (
+				867E9CD0270E1DB000C8DAC4 /* MenuCell.swift */,
+				867E9CD6270E1E9A00C8DAC4 /* ResturantMenuVC.swift */,
+			);
+			path = "Screen 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861C4243270DD3D400263936 /* Jahizapp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861C4258270DD3D600263936 /* Build configuration list for PBXNativeTarget "Jahizapp2" */;
+			buildPhases = (
+				861C4240270DD3D400263936 /* Sources */,
+				861C4241270DD3D400263936 /* Frameworks */,
+				861C4242270DD3D400263936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jahizapp2;
+			productName = Jahizapp2;
+			productReference = 861C4244270DD3D400263936 /* Jahizapp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861C423C270DD3D400263936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					861C4243270DD3D400263936 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 861C423F270DD3D400263936 /* Build configuration list for PBXProject "Jahizapp2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861C423B270DD3D400263936;
+			productRefGroup = 861C4245270DD3D400263936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861C4243270DD3D400263936 /* Jahizapp2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861C4242270DD3D400263936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861C4254270DD3D600263936 /* LaunchScreen.storyboard in Resources */,
+				861C4251270DD3D600263936 /* Assets.xcassets in Resources */,
+				861C424F270DD3D400263936 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861C4240270DD3D400263936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867E9CC9270E000000C8DAC4 /* restaurants.swift in Sources */,
+				867E9CD1270E1DB000C8DAC4 /* MenuCell.swift in Sources */,
+				861C4248270DD3D400263936 /* AppDelegate.swift in Sources */,
+				867E9CD5270E1E5100C8DAC4 /* ResturantlistVC.swift in Sources */,
+				867E9CCF270E13EA00C8DAC4 /* ResturantCell.swift in Sources */,
+				867E9CD7270E1E9A00C8DAC4 /* ResturantMenuVC.swift in Sources */,
+				861C424A270DD3D400263936 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		861C424D270DD3D400263936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861C424E270DD3D400263936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		861C4252270DD3D600263936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861C4253270DD3D600263936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		861C4256270DD3D600263936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		861C4257270DD3D600263936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861C4259270DD3D600263936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 822RG578M9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jahizapp2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanan.Jahizapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		861C425A270DD3D600263936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 822RG578M9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jahizapp2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanan.Jahizapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861C423F270DD3D400263936 /* Build configuration list for PBXProject "Jahizapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861C4256270DD3D600263936 /* Debug */,
+				861C4257270DD3D600263936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861C4258270DD3D600263936 /* Build configuration list for PBXNativeTarget "Jahizapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861C4259270DD3D600263936 /* Debug */,
+				861C425A270DD3D600263936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861C423C270DD3D400263936 /* Project object */;
+}
