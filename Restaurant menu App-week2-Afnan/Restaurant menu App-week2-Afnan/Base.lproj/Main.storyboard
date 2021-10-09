@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R7F-uQ-wyF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Restaurants ListVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RestaurantsListVC" customModule="Restaurant_menu_App_week2_Afnan" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lhL-pS-rpJ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RestaurantCell" rowHeight="143" id="b6R-yu-PEe" customClass="RestaurantCell" customModule="Restaurant_menu_App_week2_Afnan">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="RestaurantCell" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b6R-yu-PEe" id="yUn-Ig-ZKi" customClass="RestaurantCell" customModule="Restaurant_menu_App_week2_Afnan" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="143"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" restorationIdentifier="Restaurantimage" translatesAutoresizingMaskIntoConstraints="NO" id="Xni-e0-C40" customClass="Restaurantimage">
+                                                    <rect key="frame" x="252" y="8" width="162" height="128"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" restorationIdentifier="Restaurantname" text="الطازج" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW0-Em-EcT" customClass="Restaurantname">
+                                                    <rect key="frame" x="174" y="10" width="66" height="33"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" restorationIdentifier="Restauranttype" text="وجبات سريعة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKI-4U-0Zf" customClass="Restauranttype">
+                                                    <rect key="frame" x="152" y="53" width="92" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" restorationIdentifier="Restaurantisopen" text="Open" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icF-Vy-M2o" customClass="Restaurantisopen">
+                                                    <rect key="frame" x="186" y="90" width="53" height="27"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <color key="textColor" systemColor="systemGreenColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Restaurantrating" text="4.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nuf-ou-c9Q" customClass="Restaurantrating">
+                                                    <rect key="frame" x="16" y="16" width="43" height="35"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                                    <color key="textColor" red="0.92133218049999999" green="0.1156869412" blue="0.060834492160000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Xni-e0-C40" firstAttribute="leading" secondItem="JKI-4U-0Zf" secondAttribute="trailing" constant="16" id="BOU-4G-asc"/>
+                                                <constraint firstItem="icF-Vy-M2o" firstAttribute="top" secondItem="JKI-4U-0Zf" secondAttribute="bottom" constant="16" id="GKq-Lk-9mt"/>
+                                                <constraint firstItem="nW0-Em-EcT" firstAttribute="top" secondItem="yUn-Ig-ZKi" secondAttribute="top" constant="10" id="V0w-ra-mvU"/>
+                                                <constraint firstItem="JKI-4U-0Zf" firstAttribute="top" secondItem="nW0-Em-EcT" secondAttribute="bottom" constant="10" id="Zaz-Jm-sq3"/>
+                                                <constraint firstItem="Xni-e0-C40" firstAttribute="leading" secondItem="icF-Vy-M2o" secondAttribute="trailing" constant="18" id="c0y-7q-6Om"/>
+                                                <constraint firstItem="Nuf-ou-c9Q" firstAttribute="leading" secondItem="yUn-Ig-ZKi" secondAttribute="leading" constant="16" id="faN-ry-3bF"/>
+                                                <constraint firstItem="Xni-e0-C40" firstAttribute="leading" secondItem="nW0-Em-EcT" secondAttribute="trailing" constant="16" id="tKL-c1-r1m"/>
+                                                <constraint firstItem="Nuf-ou-c9Q" firstAttribute="top" secondItem="yUn-Ig-ZKi" secondAttribute="top" constant="16" id="z6c-BV-FW5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="Restaurantcell" destination="yUn-Ig-ZKi" id="pPo-9l-2iv"/>
+                                            <outlet property="restaurantimage" destination="Xni-e0-C40" id="iQ4-TM-d2n"/>
+                                            <outlet property="restaurantisopen" destination="icF-Vy-M2o" id="Pqw-F0-9CV"/>
+                                            <outlet property="restaurantname" destination="nW0-Em-EcT" id="CLH-ne-c5j"/>
+                                            <outlet property="restaurantrating" destination="Nuf-ou-c9Q" id="IXQ-EE-7QQ"/>
+                                            <outlet property="restauranttype" destination="JKI-4U-0Zf" id="h7k-59-WCk"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lhL-pS-rpJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KmD-8Z-s28"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lhL-pS-rpJ" secondAttribute="trailing" id="jgA-Zx-ZP1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lhL-pS-rpJ" secondAttribute="bottom" id="qYO-iv-lCd"/>
+                            <constraint firstItem="lhL-pS-rpJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vcP-La-9i9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="W3t-V0-hk9"/>
+                    <connections>
+                        <outlet property="RestaurantsListVC" destination="lhL-pS-rpJ" id="1Of-27-zex"/>
+                        <segue destination="bPW-cM-h4x" kind="push" identifier="openmenu" id="wZA-Dc-rnJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4720" y="139"/>
+        </scene>
+        <!--Restaurant MenuVC-->
+        <scene sceneID="iPR-3O-ZHu">
+            <objects>
+                <viewController id="bPW-cM-h4x" customClass="RestaurantMenuVC" customModule="Restaurant_menu_App_week2_Afnan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="67m-jD-uno">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aCy-VL-Ie6" userLabel="Menulist">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="foodcell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="139" id="QUp-Nu-y1H" userLabel="foodcell">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="139"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QUp-Nu-y1H" id="X3E-HV-aHn">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hpL-zG-CFI">
+                                                    <rect key="frame" x="247" y="4" width="167" height="128"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="الطازج" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0R2-Uc-vj9">
+                                                    <rect key="frame" x="181" y="10" width="53" height="26"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="وجبات سريعة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQy-RL-ies">
+                                                    <rect key="frame" x="142" y="46" width="97" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSi-De-okq">
+                                                    <rect key="frame" x="16" y="16" width="39.5" height="32.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <color key="textColor" red="0.92133218049999999" green="0.04949100226" blue="0.1018698614" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="open" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiN-K5-HtS">
+                                                    <rect key="frame" x="181" y="82.5" width="51" height="28"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" systemColor="systemGreenColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hpL-zG-CFI" firstAttribute="leading" secondItem="HiN-K5-HtS" secondAttribute="trailing" constant="16" id="2hO-Q0-PSL"/>
+                                                <constraint firstItem="hSi-De-okq" firstAttribute="leading" secondItem="X3E-HV-aHn" secondAttribute="leading" constant="16" id="9yo-WC-Dv2"/>
+                                                <constraint firstItem="hpL-zG-CFI" firstAttribute="leading" secondItem="SQy-RL-ies" secondAttribute="trailing" constant="16" id="J2H-ap-kdY"/>
+                                                <constraint firstAttribute="trailing" secondItem="hpL-zG-CFI" secondAttribute="trailing" constant="16" id="SAn-tV-nbO"/>
+                                                <constraint firstItem="hpL-zG-CFI" firstAttribute="top" secondItem="X3E-HV-aHn" secondAttribute="top" constant="10" id="TaS-iZ-PU2"/>
+                                                <constraint firstItem="0R2-Uc-vj9" firstAttribute="top" secondItem="X3E-HV-aHn" secondAttribute="top" constant="10" id="UAr-n8-kXw"/>
+                                                <constraint firstItem="hpL-zG-CFI" firstAttribute="leading" secondItem="0R2-Uc-vj9" secondAttribute="trailing" constant="16" id="ZLH-8Q-7QN"/>
+                                                <constraint firstItem="SQy-RL-ies" firstAttribute="top" secondItem="0R2-Uc-vj9" secondAttribute="bottom" constant="10" id="kK4-4l-j5R"/>
+                                                <constraint firstItem="hSi-De-okq" firstAttribute="top" secondItem="X3E-HV-aHn" secondAttribute="top" constant="16" id="oIN-gG-CLJ"/>
+                                                <constraint firstItem="HiN-K5-HtS" firstAttribute="top" secondItem="SQy-RL-ies" secondAttribute="bottom" constant="16" id="xCK-ZP-mDE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="menucell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuCell" rowHeight="186" id="vh4-5p-Dmu" userLabel="MenuCell">
+                                        <rect key="frame" x="0.0" y="183.5" width="414" height="186"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vh4-5p-Dmu" id="Oac-wg-PZ1" userLabel="menuCell" customClass="menuCell" customModule="Restaurant_menu_App_week2_Afnan" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="186"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3A-V1-xEf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="124"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5x-lm-E29">
+                                                    <rect key="frame" x="343.5" y="141" width="54.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpy-4G-mBB" userLabel="Foodprice">
+                                                    <rect key="frame" x="35" y="141" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Wpy-4G-mBB" firstAttribute="leading" secondItem="Oac-wg-PZ1" secondAttribute="leadingMargin" constant="15" id="6P0-Kl-1e9"/>
+                                                <constraint firstItem="o3A-V1-xEf" firstAttribute="leading" secondItem="Oac-wg-PZ1" secondAttribute="leading" id="DNs-sT-TJA"/>
+                                                <constraint firstAttribute="trailing" secondItem="o3A-V1-xEf" secondAttribute="trailing" id="HbG-oS-bcZ"/>
+                                                <constraint firstAttribute="trailing" secondItem="J5x-lm-E29" secondAttribute="trailing" constant="16" id="IOY-M0-eOG"/>
+                                                <constraint firstItem="J5x-lm-E29" firstAttribute="top" secondItem="o3A-V1-xEf" secondAttribute="bottom" constant="16" id="TTf-VK-Srb"/>
+                                                <constraint firstItem="o3A-V1-xEf" firstAttribute="top" secondItem="Oac-wg-PZ1" secondAttribute="top" id="XO4-7I-IZh"/>
+                                                <constraint firstItem="Wpy-4G-mBB" firstAttribute="top" secondItem="o3A-V1-xEf" secondAttribute="bottom" constant="17" id="jOu-I9-di1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xSH-hg-Xp5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xSH-hg-Xp5" firstAttribute="trailing" secondItem="aCy-VL-Ie6" secondAttribute="trailing" id="GOj-uI-mRE"/>
+                            <constraint firstItem="xSH-hg-Xp5" firstAttribute="bottom" secondItem="aCy-VL-Ie6" secondAttribute="bottom" id="ekf-WU-QZL"/>
+                            <constraint firstItem="aCy-VL-Ie6" firstAttribute="leading" secondItem="xSH-hg-Xp5" secondAttribute="leading" id="q5P-un-CwS"/>
+                            <constraint firstItem="aCy-VL-Ie6" firstAttribute="top" secondItem="xSH-hg-Xp5" secondAttribute="top" id="uX5-7v-uVD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sK5-uJ-Q35"/>
+                    <connections>
+                        <outlet property="Menulist" destination="aCy-VL-Ie6" id="4Ti-sJ-tqj"/>
+                        <outlet property="ReastaurantMenuVC" destination="67m-jD-uno" id="beB-cp-yQW"/>
+                        <outlet property="foodcell" destination="QUp-Nu-y1H" id="kqL-YW-zbg"/>
+                        <outlet property="foodimage" destination="o3A-V1-xEf" id="NYi-TG-IuP"/>
+                        <outlet property="foodname" destination="J5x-lm-E29" id="Qgx-YL-6FC"/>
+                        <outlet property="foodprice" destination="Wpy-4G-mBB" id="vJ9-zi-tKq"/>
+                        <outlet property="menucell" destination="vh4-5p-Dmu" id="FBk-mH-if6"/>
+                        <outlet property="menucell2" destination="Oac-wg-PZ1" id="j8Y-gM-CS6"/>
+                        <outlet property="reastaurantimage1" destination="hpL-zG-CFI" id="mWm-aU-VZX"/>
+                        <outlet property="reastaurantisopen1" destination="HiN-K5-HtS" id="Cge-kk-mmo"/>
+                        <outlet property="reastaurantname1" destination="0R2-Uc-vj9" id="Tme-OD-gBW"/>
+                        <outlet property="reastaurantrating1" destination="hSi-De-okq" id="OuA-pS-Mj9"/>
+                        <outlet property="reastauranttype1" destination="SQy-RL-ies" id="xFB-q9-QSc"/>
+                        <outlet property="restaurantcell" destination="X3E-HV-aHn" id="aOn-sO-1Fl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uuf-4l-bJr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5549" y="149"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yRt-5L-kOt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="R7F-uQ-wyF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m75-Zp-rK8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xB3-9i-x2h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdU-YM-rEj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3903" y="131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
