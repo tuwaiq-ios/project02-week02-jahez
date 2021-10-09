@@ -4,8 +4,8 @@
 - Displays list of restaurants
 - Displays a menu of items (title, photo, price) for each menu item
 
-![image](https://user-images.githubusercontent.com/34512743/135730851-d522aab4-492f-4e1e-8ef0-5222b8eafa94.png)
-
+![image](https:///Users/Atheer/Desktop/page1.png)
+![image](https:///Users/Atheer/Desktop/page2.png)
 ## What will you learn?
 - Using Swift UICollectionView
 - Using Swift Navigation and Segues

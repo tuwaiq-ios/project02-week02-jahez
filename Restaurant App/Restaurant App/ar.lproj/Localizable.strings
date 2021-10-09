@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Restaurant App
+
+  Created by Eth Os on 03/03/1443 AH.
+  
+*/
+"Jahez" = "جاهز";
+"OPEN" = "مفتوح";
+"CLOSED" = "مغلق";
+"Location" = "الموقع";
+"Gorno" = "جورنو";
+"Italian" = "ايطالي";
+"Pizza" = "بيتزا";
+"Fettuccine Alfredo" = "فيتوتشيني الفريدو";
+"Tuscan" = "توسكان";
+"Gold Sushi" = "جولد سوشي";
+"Japanese" = "ياباني";
+"Vegetable Sushi" = "سوشي بالخضار";
+"Crispy Sushi" = "كرسبي سوشي";
+"Original Sushi" = "اوريجينال سوشي";
+"Tim Hortons" = "تيم هورتنز";
+"Coffee" = "قهوة";
+"Black Coffee" = "قهوة سوداء";
+"White Mocha" = "وايت موكا";
+"Donuts" = "دونات";
+"Maharani" = "مهراني";
+"Indian" = "هندي";
+"Chicken Masala" = "دجاج مسالا";
+"Chicken Curry" = "كاري الدجاج";
+"Indian Salad" = "السلطة الهندية";
+"McDonalds" = "ماكدونالدز";
+"Fast Food" = "وجبات سريعة";
+"Grand Chicken Special" = "جراند تشيكن سبيشال";
+"Mac Arabic Chicken" = "ماك عربي تشيكن";
+"Chicken McNuggets" = "تشيكن ماك ناجتس";
+"Starbucks" = "ستاربكس";
+"Americano" = "امريكانو";
+"Ice White Mocha" = "ايس وايت موكا";
+"Croissant" = "كرواسون";
+"2 Eat" = "تو ايت";
+"2 Eight Burger" = "تو ايت برجر";
+"Truffle Fries" = "ترافل فرايز";
+"2 Eat Salad" = "سلطة تو ايت";
+"Kiwi" = "كيوي";
+"Juices and Ice Cream" = "عصائر ومثلجات";
+"Mango Juice" = "عصير المانجو";
+"Watermelon Ice Cream" = "آيس كريم البطيخ";
+"Blueberry Ice Cream" = "آيس كريم التوت الأزرق";
+"Shrimp Nation" = "شرمب نيشن";
+"Seafood" = "مأكولات بحرية";
+"Oyster" = "محار";
+"Shrimp" = "روبيان";
+"Dynamite" = "ديناميت";
+"A3nab" = "أعناب";
+"Arabic Foods" = "مأكولات عربية";
+"Grape Leaves" = "ورق عنب";
+"Cabbage" = "كرومب";
+"Mixed Mehshi" = "محشي مشكل";
