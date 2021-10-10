@@ -1,83 +1,98 @@
+//
+//  Data.swift
+//  Jahez
+//
+//  Created by Fawaz on 04/03/1443 AH.
+//
 
-import Foundation
+import UIKit
 
-struct Restaurants {
-  
-  let nameR: String
-  let logoR: String
-  let ratingR: String
-  let typeR: String
-  let isOpenR: Bool
-  
-  let menuR: Array<Food>
+struct Rest{
+  let name: String
+  let type: String
+  let state: String
+  let rating: Double
+  let logo: String
+  let foods: Array <Food>
 }
+
 struct Food {
-  let logoF: String
-  let nameF: String
-  let priceF: Double
-  
+  let name: String
+  let image: String
+  let price: Double
 }
 
-let Data = [
-  Restaurants(
-  nameR: "مقهى ايت اوز",
-  logoR: "oz.jpeg",
-  ratingR: "\(4.3) ⭐️",
-  typeR: "قهوه، مشروبات، حلويات",
-  isOpenR: true,
-  menuR: [Food(logoF: "oz1.jpeg", nameF: "فلايت وايت مع كوكيز", priceF: 20),
-          Food(logoF: "oz2.jpeg", nameF: "كعكه الحليب بالزعفران", priceF: 15)
-         ]
-),
-  Restaurants(
-  nameR: "دانكن دونت",
-  logoR: "dun.jpeg",
-  ratingR: "\(4.3) ⭐️",
-  typeR: "مشروبات، حلويات، قهوه",
-  isOpenR: true,
-  menuR: [Food(logoF: "dun1.jpeg", nameF: "عرض الجمعه", priceF: 20),
-          Food(logoF: "dun2.jpeg", nameF: "كرك شاي", priceF: 10)
-         ]
-),
-  Restaurants(
-  nameR: "باسكن روبنز",
-  logoR: "bas.jpeg",
-  ratingR: "\(3.8) ⭐️",
-  typeR: "حلويات، ايس كريم",
-  isOpenR: false,
-  menuR: [Food(logoF: "bas1.jpeg", nameF: "مغرفه التوفير", priceF: 15),
-          Food(logoF: "bas2.jpeg", nameF: "ايس كريم", priceF: 8)
-         ]
-),
-  Restaurants(
-  nameR: "دومينوز بيتزا",
-  logoR: "dom.jpeg",
-  ratingR: "\(4.0) ⭐️",
-  typeR: "بيتزا، ماكولات سريعه",
-  isOpenR: true,
-  menuR: [Food(logoF: "dom1.jpeg", nameF: "داينمايت بيتزا", priceF: 33),
-          Food(logoF: "dom2.jpeg", nameF: "عرض بدون شروط", priceF: 29)
-          ]
-),
-  Restaurants(
-  nameR: "شاورمر",
-  logoR: "sha.jpeg",
-  ratingR: "\(3.0) ⭐️",
-  typeR: "شاورما، ساندويشات",
-  isOpenR: false,
-  menuR: [Food(logoF: "sha1.jpeg", nameF: "طلبك بطلبين", priceF: 29),
-          Food(logoF: "sha2.jpeg", nameF: "شاورما عربي", priceF: 30)
-         ]
-),
-  Restaurants(
-  nameR: "البرجر الطازج",
-  logoR: "bur.jpeg",
-  ratingR: "\(3.5) ⭐️",
-  typeR: "ماكولات سريعه، ساندويشات",
-  isOpenR: true,
+let restList = [
   
-  menuR: [Food(logoF: "bur1.jpeg", nameF: "برجر دجاج", priceF: 26),
-          Food(logoF: "bur2.jpeg", nameF: "برجر لحم", priceF: 30)
-         ]
-),
-]
+  Rest(
+  name:  "مقهى ايت اوز",
+  type: "قهوه، مشروبات، حلويات",
+  state: "مفتوح",
+  rating: 4.3,
+  logo: "oz",
+  foods: [
+    Food(name: "فلايت وايت مع كوكيز", image: "oz1", price: 20),
+    Food(name: "كعكه الحليب بالزعفران", image: "oz2", price: 15)
+          ]
+ ),
+  
+  Rest(
+  name: "دانكن دونت",
+  type: "مشروبات، حلويات، قهوه",
+  state: "مفتوح",
+  rating: 4.5,
+  logo: "dun",
+  foods: [
+    Food(name: "عرض الجمعه", image: "dun1", price: 20),
+    Food(name: "كرك شاي", image: "dun2", price: 10)
+          ]
+ ),
+  
+  Rest(
+  name: "باسكن روبنز",
+  type: "حلويات، ايس كريم",
+  state: "مغلق",
+  rating: 4.0,
+  logo: "bas",
+  foods: [
+    Food(name: "مغرفه التوفير", image: "bas1", price: 15),
+    Food(name: "ايس كريم", image: "bas2", price: 8)
+          ]
+ ),
+  
+  Rest(
+  name: "دومينوز بيتزا",
+  type: "بيتزا، ماكولات سريعه",
+  state: "مفتوح",
+  rating: 4.2,
+  logo: "dom",
+  foods: [
+    Food(name: "داينمايت بيتزا", image: "dom1", price: 33),
+    Food(name: "عرض بدون شروط", image: "dom2", price: 29)
+          ]
+ ),
+  
+  Rest(
+  name: "شاورمر",
+  type: "شاورما، ساندويشات",
+  state: "مفتوح",
+  rating: 3.5,
+  logo: "sha",
+  foods: [
+    Food(name: "طلبك بطلبين", image: "sha1", price: 29),
+    Food(name: "شاورما عربي", image: "sha2", price: 30)
+          ]
+ ),
+  
+  Rest(
+  name: "البرجر الطازج",
+  type: "ماكولات سريعه، ساندويشات",
+  state: "مفتوح",
+  rating: 3.3,
+  logo: "bur",
+  foods: [
+    Food(name: "برجر دجاج", image: "bur1", price: 26),
+    Food(name: "برجر لحم", image: "bur2", price: 30)
+          ]
+ )
+ ]
