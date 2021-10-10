@@ -22,7 +22,7 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "FoodCell", for: indexPath) as! Cell2
         cell.foodName.text = food?.name
-        cell.foodPrice.text = "\"(food!.price)"
+        cell.foodPrice.text = "\(food!.price)"
         cell.foodImage.image = UIImage(named: food!.image)
         
         
