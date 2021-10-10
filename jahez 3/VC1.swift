@@ -40,11 +40,10 @@ class VC1 : UIViewController , UITableViewDelegate , UITableViewDataSource {
         performSegue(withIdentifier: "show_menu" , sender: rest)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        super.prepare(for: segue, sender: sender) // يحضر للبيانات الي بالصفحه الثانيه
+        super.prepare(for: segue, sender: sender)
         
-        let vc2 = segue.destination as! VC2 // متغير يحمل قيمه الشاشه الي بنروح لها
-   
-        vc2.restfromVC1 = sender as? Rest // نوع سندر رست
+        let vc2 = segue.destination as! VC2
+        vc2.restfromVC1 = sender as? Rest 
     
     }
 }
