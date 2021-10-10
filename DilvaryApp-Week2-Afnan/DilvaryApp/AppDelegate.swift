@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Restaurant menu App-week2-Afnan
+//  DilvaryApp
 //
-//  Created by Fno Khalid on 29/02/1443 AH.
+//  Created by Fno Khalid on 04/03/1443 AH.
 //
 
 import UIKit
