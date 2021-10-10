@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ECD7F63270DD4140055A951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD7F62270DD4140055A951 /* AppDelegate.swift */; };
-		5ECD7F65270DD4140055A951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD7F64270DD4140055A951 /* SceneDelegate.swift */; };
-		5ECD7F6A270DD4140055A951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD7F68270DD4140055A951 /* Main.storyboard */; };
-		5ECD7F6C270DD4150055A951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD7F6B270DD4150055A951 /* Assets.xcassets */; };
-		5ECD7F6F270DD4150055A951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD7F6D270DD4150055A951 /* LaunchScreen.storyboard */; };
-		5ECD7F77270DD4440055A951 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD7F76270DD4440055A951 /* Restaurant.swift */; };
-		5ECD7F79270DD4DA0055A951 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD7F78270DD4DA0055A951 /* RestaurantCell.swift */; };
-		5ECD7F7B270EFE020055A951 /* RestaurantsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD7F7A270EFE020055A951 /* RestaurantsListVC.swift */; };
-		5ECD7F7D270EFE500055A951 /* RestaurantsMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD7F7C270EFE500055A951 /* RestaurantsMenuVC.swift */; };
-		5ECD7F7F270F02C90055A951 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD7F7E270F02C90055A951 /* MenuCell.swift */; };
+		5E7982532712C078003AF677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7982522712C078003AF677 /* AppDelegate.swift */; };
+		5E7982552712C078003AF677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7982542712C078003AF677 /* SceneDelegate.swift */; };
+		5E79825A2712C078003AF677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7982582712C078003AF677 /* Main.storyboard */; };
+		5E79825C2712C07A003AF677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E79825B2712C07A003AF677 /* Assets.xcassets */; };
+		5E79825F2712C07A003AF677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E79825D2712C07A003AF677 /* LaunchScreen.storyboard */; };
+		5E7982672712C0C4003AF677 /* cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7982662712C0C4003AF677 /* cell2.swift */; };
+		5E7982692712C0D6003AF677 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7982682712C0D6003AF677 /* VC2.swift */; };
+		5E79826B2712C0E0003AF677 /* cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E79826A2712C0E0003AF677 /* cell1.swift */; };
+		5E79826D2712C245003AF677 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E79826C2712C245003AF677 /* VC1.swift */; };
+		5E79826F2712DA75003AF677 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E79826E2712DA75003AF677 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5ECD7F5F270DD4140055A951 /* jahez pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jahez pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ECD7F62270DD4140055A951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5ECD7F64270DD4140055A951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5ECD7F69270DD4140055A951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5ECD7F6B270DD4150055A951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5ECD7F6E270DD4150055A951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5ECD7F70270DD4150055A951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ECD7F76270DD4440055A951 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		5ECD7F78270DD4DA0055A951 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
-		5ECD7F7A270EFE020055A951 /* RestaurantsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsListVC.swift; sourceTree = "<group>"; };
-		5ECD7F7C270EFE500055A951 /* RestaurantsMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsMenuVC.swift; sourceTree = "<group>"; };
-		5ECD7F7E270F02C90055A951 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		5E79824F2712C078003AF677 /* jahez.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jahez.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7982522712C078003AF677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E7982542712C078003AF677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E7982592712C078003AF677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E79825B2712C07A003AF677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E79825E2712C07A003AF677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E7982602712C07A003AF677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7982662712C0C4003AF677 /* cell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell2.swift; sourceTree = "<group>"; };
+		5E7982682712C0D6003AF677 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		5E79826A2712C0E0003AF677 /* cell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = cell1.swift; path = ../cell1.swift; sourceTree = "<group>"; };
+		5E79826C2712C245003AF677 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		5E79826E2712DA75003AF677 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5ECD7F5C270DD4140055A951 /* Frameworks */ = {
+		5E79824C2712C078003AF677 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +45,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5ECD7F56270DD4140055A951 = {
+		5E7982462712C078003AF677 = {
 			isa = PBXGroup;
 			children = (
-				5ECD7F61270DD4140055A951 /* jahez pro */,
-				5ECD7F60270DD4140055A951 /* Products */,
+				5E7982512712C078003AF677 /* jahez.2 */,
+				5E7982502712C078003AF677 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5ECD7F60270DD4140055A951 /* Products */ = {
+		5E7982502712C078003AF677 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ECD7F5F270DD4140055A951 /* jahez pro.app */,
+				5E79824F2712C078003AF677 /* jahez.2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5ECD7F61270DD4140055A951 /* jahez pro */ = {
+		5E7982512712C078003AF677 /* jahez.2 */ = {
 			isa = PBXGroup;
 			children = (
-				5ECD7F62270DD4140055A951 /* AppDelegate.swift */,
-				5ECD7F64270DD4140055A951 /* SceneDelegate.swift */,
-				5ECD7F6B270DD4150055A951 /* Assets.xcassets */,
-				5ECD7F6D270DD4150055A951 /* LaunchScreen.storyboard */,
-				5ECD7F70270DD4150055A951 /* Info.plist */,
-				5ECD7F76270DD4440055A951 /* Restaurant.swift */,
-				5ECD7F7A270EFE020055A951 /* RestaurantsListVC.swift */,
-				5ECD7F78270DD4DA0055A951 /* RestaurantCell.swift */,
-				5ECD7F7C270EFE500055A951 /* RestaurantsMenuVC.swift */,
-				5ECD7F7E270F02C90055A951 /* MenuCell.swift */,
-				5ECD7F68270DD4140055A951 /* Main.storyboard */,
+				5E7982522712C078003AF677 /* AppDelegate.swift */,
+				5E7982542712C078003AF677 /* SceneDelegate.swift */,
+				5E79825B2712C07A003AF677 /* Assets.xcassets */,
+				5E79825D2712C07A003AF677 /* LaunchScreen.storyboard */,
+				5E7982602712C07A003AF677 /* Info.plist */,
+				5E7982582712C078003AF677 /* Main.storyboard */,
+				5E79826E2712DA75003AF677 /* Data.swift */,
+				5E79826C2712C245003AF677 /* VC1.swift */,
+				5E79826A2712C0E0003AF677 /* cell1.swift */,
+				5E7982682712C0D6003AF677 /* VC2.swift */,
+				5E7982662712C0C4003AF677 /* cell2.swift */,
 			);
-			path = "jahez pro";
+			path = jahez.2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5ECD7F5E270DD4140055A951 /* jahez pro */ = {
+		5E79824E2712C078003AF677 /* jahez.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ECD7F73270DD4150055A951 /* Build configuration list for PBXNativeTarget "jahez pro" */;
+			buildConfigurationList = 5E7982632712C07A003AF677 /* Build configuration list for PBXNativeTarget "jahez.2" */;
 			buildPhases = (
-				5ECD7F5B270DD4140055A951 /* Sources */,
-				5ECD7F5C270DD4140055A951 /* Frameworks */,
-				5ECD7F5D270DD4140055A951 /* Resources */,
+				5E79824B2712C078003AF677 /* Sources */,
+				5E79824C2712C078003AF677 /* Frameworks */,
+				5E79824D2712C078003AF677 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "jahez pro";
-			productName = "jahez pro";
-			productReference = 5ECD7F5F270DD4140055A951 /* jahez pro.app */;
+			name = jahez.2;
+			productName = jahez.2;
+			productReference = 5E79824F2712C078003AF677 /* jahez.2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5ECD7F57270DD4140055A951 /* Project object */ = {
+		5E7982472712C078003AF677 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					5ECD7F5E270DD4140055A951 = {
+					5E79824E2712C078003AF677 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 5ECD7F5A270DD4140055A951 /* Build configuration list for PBXProject "jahez pro" */;
+			buildConfigurationList = 5E79824A2712C078003AF677 /* Build configuration list for PBXProject "jahez.2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +122,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 5ECD7F56270DD4140055A951;
-			productRefGroup = 5ECD7F60270DD4140055A951 /* Products */;
+			mainGroup = 5E7982462712C078003AF677;
+			productRefGroup = 5E7982502712C078003AF677 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5ECD7F5E270DD4140055A951 /* jahez pro */,
+				5E79824E2712C078003AF677 /* jahez.2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5ECD7F5D270DD4140055A951 /* Resources */ = {
+		5E79824D2712C078003AF677 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECD7F6F270DD4150055A951 /* LaunchScreen.storyboard in Resources */,
-				5ECD7F6C270DD4150055A951 /* Assets.xcassets in Resources */,
-				5ECD7F6A270DD4140055A951 /* Main.storyboard in Resources */,
+				5E79825F2712C07A003AF677 /* LaunchScreen.storyboard in Resources */,
+				5E79825C2712C07A003AF677 /* Assets.xcassets in Resources */,
+				5E79825A2712C078003AF677 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5ECD7F5B270DD4140055A951 /* Sources */ = {
+		5E79824B2712C078003AF677 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECD7F79270DD4DA0055A951 /* RestaurantCell.swift in Sources */,
-				5ECD7F7F270F02C90055A951 /* MenuCell.swift in Sources */,
-				5ECD7F7B270EFE020055A951 /* RestaurantsListVC.swift in Sources */,
-				5ECD7F77270DD4440055A951 /* Restaurant.swift in Sources */,
-				5ECD7F7D270EFE500055A951 /* RestaurantsMenuVC.swift in Sources */,
-				5ECD7F63270DD4140055A951 /* AppDelegate.swift in Sources */,
-				5ECD7F65270DD4140055A951 /* SceneDelegate.swift in Sources */,
+				5E79826F2712DA75003AF677 /* Data.swift in Sources */,
+				5E7982692712C0D6003AF677 /* VC2.swift in Sources */,
+				5E79826B2712C0E0003AF677 /* cell1.swift in Sources */,
+				5E79826D2712C245003AF677 /* VC1.swift in Sources */,
+				5E7982672712C0C4003AF677 /* cell2.swift in Sources */,
+				5E7982532712C078003AF677 /* AppDelegate.swift in Sources */,
+				5E7982552712C078003AF677 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5ECD7F68270DD4140055A951 /* Main.storyboard */ = {
+		5E7982582712C078003AF677 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5ECD7F69270DD4140055A951 /* Base */,
+				5E7982592712C078003AF677 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5ECD7F6D270DD4150055A951 /* LaunchScreen.storyboard */ = {
+		5E79825D2712C07A003AF677 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5ECD7F6E270DD4150055A951 /* Base */,
+				5E79825E2712C07A003AF677 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5ECD7F71270DD4150055A951 /* Debug */ = {
+		5E7982612712C07A003AF677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		5ECD7F72270DD4150055A951 /* Release */ = {
+		5E7982622712C07A003AF677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,7 +298,7 @@
 			};
 			name = Release;
 		};
-		5ECD7F74270DD4150055A951 /* Debug */ = {
+		5E7982642712C07A003AF677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,7 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8DP7WP5D27;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "jahez pro/Info.plist";
+				INFOPLIST_FILE = jahez.2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SA.HASSANBIHAN.jahez-pro";
+				PRODUCT_BUNDLE_IDENTIFIER = "SA.HASSANBIHAN.jahez-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,7 +326,7 @@
 			};
 			name = Debug;
 		};
-		5ECD7F75270DD4150055A951 /* Release */ = {
+		5E7982652712C07A003AF677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -335,7 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8DP7WP5D27;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "jahez pro/Info.plist";
+				INFOPLIST_FILE = jahez.2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -346,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SA.HASSANBIHAN.jahez-pro";
+				PRODUCT_BUNDLE_IDENTIFIER = "SA.HASSANBIHAN.jahez-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,25 +357,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5ECD7F5A270DD4140055A951 /* Build configuration list for PBXProject "jahez pro" */ = {
+		5E79824A2712C078003AF677 /* Build configuration list for PBXProject "jahez.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ECD7F71270DD4150055A951 /* Debug */,
-				5ECD7F72270DD4150055A951 /* Release */,
+				5E7982612712C07A003AF677 /* Debug */,
+				5E7982622712C07A003AF677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ECD7F73270DD4150055A951 /* Build configuration list for PBXNativeTarget "jahez pro" */ = {
+		5E7982632712C07A003AF677 /* Build configuration list for PBXNativeTarget "jahez.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ECD7F74270DD4150055A951 /* Debug */,
-				5ECD7F75270DD4150055A951 /* Release */,
+				5E7982642712C07A003AF677 /* Debug */,
+				5E7982652712C07A003AF677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5ECD7F57270DD4140055A951 /* Project object */;
+	rootObject = 5E7982472712C078003AF677 /* Project object */;
 }
