@@ -191,6 +191,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPd-3T-Xgy">
+                                <rect key="frame" x="10" y="72" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bxi-Lc-jM7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -201,11 +207,13 @@
                             <constraint firstItem="bxi-Lc-jM7" firstAttribute="bottom" secondItem="WBS-hJ-nE1" secondAttribute="bottom" id="5M0-t8-8jw"/>
                             <constraint firstItem="tVc-cc-chV" firstAttribute="top" secondItem="Z1M-98-mKe" secondAttribute="bottom" constant="16" id="EUa-89-ufl"/>
                             <constraint firstItem="5g7-Yv-tGd" firstAttribute="leading" secondItem="Z1M-98-mKe" secondAttribute="trailing" constant="12" id="GzY-67-cc7"/>
+                            <constraint firstItem="LPd-3T-Xgy" firstAttribute="leading" secondItem="bxi-Lc-jM7" secondAttribute="leading" constant="10" id="HoV-AQ-ril"/>
                             <constraint firstItem="EX5-L5-3tT" firstAttribute="top" secondItem="tVc-cc-chV" secondAttribute="bottom" constant="20" id="IPM-cm-vBx"/>
                             <constraint firstItem="5g7-Yv-tGd" firstAttribute="leading" secondItem="tVc-cc-chV" secondAttribute="trailing" constant="12" id="IRd-rk-LzW"/>
                             <constraint firstItem="WBS-hJ-nE1" firstAttribute="leading" secondItem="bxi-Lc-jM7" secondAttribute="leading" id="QD7-3k-y7H"/>
                             <constraint firstItem="5g7-Yv-tGd" firstAttribute="top" secondItem="bxi-Lc-jM7" secondAttribute="top" constant="34" id="TLl-ev-dHa"/>
                             <constraint firstItem="dzb-TH-xMK" firstAttribute="leading" secondItem="bxi-Lc-jM7" secondAttribute="leading" constant="16" id="Y1k-n2-y8S"/>
+                            <constraint firstItem="LPd-3T-Xgy" firstAttribute="top" secondItem="dzb-TH-xMK" secondAttribute="bottom" constant="17" id="Ygb-Y9-UOC"/>
                             <constraint firstItem="dzb-TH-xMK" firstAttribute="top" secondItem="bxi-Lc-jM7" secondAttribute="top" constant="34" id="dFT-gI-qDh"/>
                             <constraint firstItem="bxi-Lc-jM7" firstAttribute="trailing" secondItem="WBS-hJ-nE1" secondAttribute="trailing" id="ffr-xT-rcc"/>
                             <constraint firstItem="dzb-TH-xMK" firstAttribute="leading" secondItem="bxi-Lc-jM7" secondAttribute="leading" constant="16" id="leP-fR-CJi"/>
@@ -214,6 +222,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="KEX-hd-HQh"/>
                     <connections>
+                        <outlet property="countlabel" destination="LPd-3T-Xgy" id="71v-IH-1Ov"/>
                         <outlet property="menuTV" destination="WBS-hJ-nE1" id="Ptv-m4-nAN"/>
                         <outlet property="restLogo" destination="5g7-Yv-tGd" id="LiI-0M-H45"/>
                         <outlet property="restName" destination="Z1M-98-mKe" id="ghi-sb-VN2"/>
@@ -224,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyx-ME-Eqw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663.768115942029" y="79.6875"/>
+            <point key="canvasLocation" x="652" y="80"/>
         </scene>
     </scenes>
     <resources>

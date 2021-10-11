@@ -31,17 +31,29 @@ class VC1:UIViewController,UITableViewDelegate,UITableViewDataSource{
         super.viewDidLoad()
         restTV.delegate = self
         restTV.dataSource = self
+        
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+       
         let rest = restList[indexPath.row] // بيانات المطعم الي نضغط عليها وتودينا للصفحة اللي بعدها
+      
+       // counter[rest.name]counter[rest.name]+1 //هنا يعطينا اوبشنل واحنا مانبغى لذلك نعمل الاتي
+        let oldValue = counter[rest.name] ?? 0
+        counter [rest.name] = oldValue+1
+        
         performSegue(withIdentifier: "show_menu", sender: rest) //اعطيناه اسم سهم الربط اللي ينقلنا للصفحة الثانية (show)وعرفناها باسم "show _menu".
     }
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+       override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         // تجهزوتهيئ لنا وتحضر الصفحة الي تفتح بعدها
         let VC2 = segue.destination as! VC2  //
         VC2.restfromVC1 = sender as? Rest // هذا متغير سميناه في كلاس سل  restfromVC1
         //متغير يحمل قيمة الشاشة اللي نفتحها
-        
+         
+         
+         
     }
+    
+  
     }
-
+ 

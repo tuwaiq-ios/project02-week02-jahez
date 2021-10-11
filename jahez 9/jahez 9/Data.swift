@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 struct Rest {
     let name: String
     let type: String
@@ -60,6 +61,7 @@ let restList = [
                              price: 35)])
                   
                ]
+var counter: [String:Int] = [:]
 
 
                   

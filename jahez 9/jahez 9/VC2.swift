@@ -7,8 +7,8 @@
 
 import UIKit
 
+
 class VC2:UIViewController,UITableViewDelegate,UITableViewDataSource {
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -35,6 +35,12 @@ class VC2:UIViewController,UITableViewDelegate,UITableViewDataSource {
     @IBOutlet weak var restState: UILabel!
     @IBOutlet weak var restRating: UILabel!
     
+    @IBOutlet weak var countlabel: UILabel!
+    
+   
+   
+  
+    
     override func viewDidLoad() {  // هذا تنبيه
         super.viewDidLoad()
         
@@ -43,9 +49,14 @@ class VC2:UIViewController,UITableViewDelegate,UITableViewDataSource {
         restState.text = restfromVC1?.state
         restLogo.image = UIImage(named: restfromVC1!.logo)
         restRating.text = "\(restfromVC1!.rating)"
+        countlabel.text = "\(counter[restfromVC1!.name]!)"
+        
         
         menuTV.delegate = self
         menuTV.dataSource = self
+        
+        
+        
         
         
     
@@ -55,5 +66,6 @@ class VC2:UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     
     
-    
 }
+
+
