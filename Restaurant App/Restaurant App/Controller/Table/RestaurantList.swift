@@ -49,8 +49,13 @@ class RestaurantList: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let data = restaurants[indexPath.row]
-        performSegue(withIdentifier: "toMenu", sender: data)
         
+        let old = visitor[data.name] ?? 0
+        visitor[data.name] = old + 1
+/*
+  ما يحتاج ارسله لان اقدر اوصل له من اي كلاس
+*/
+        performSegue(withIdentifier: "toMenu", sender: data)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

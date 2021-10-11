@@ -18,15 +18,19 @@ class MenuCollectionView: UIViewController ,UICollectionViewDelegate, UICollecti
     @IBOutlet weak var resturantRating: UILabel!
     @IBOutlet weak var restaurantTime: UILabel!
     
+    @IBOutlet weak var countLabel: UILabel!
+    
     @IBOutlet weak var menuCV: UICollectionView!
     
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
     
     var restaurant : Restaurant?
-    
+
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        countLabel.text = " visitor: \(visitor[restaurant!.name] ?? 0)"
         
         locattionButton.titleLabel?.text = NSLocalizedString("Location", comment: "")
         

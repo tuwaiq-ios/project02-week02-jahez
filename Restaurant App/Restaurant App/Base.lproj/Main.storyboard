@@ -225,6 +225,12 @@
                                     <action selector="locattionButton:" destination="FSd-Ud-A4q" eventType="touchUpInside" id="3DA-QE-tOA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5L1-Kx-kxU">
+                                <rect key="frame" x="16" y="57" width="35.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YFq-qj-8kf"/>
                         <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
@@ -240,9 +246,11 @@
                             <constraint firstItem="Ay5-U7-mPm" firstAttribute="top" secondItem="snS-od-ZTF" secondAttribute="bottom" constant="16" id="b1E-3W-m3P"/>
                             <constraint firstItem="QfA-Nb-fQi" firstAttribute="leading" secondItem="xWQ-Ib-HtD" secondAttribute="trailing" constant="16" id="eZm-xv-Guq"/>
                             <constraint firstItem="xES-2N-kQm" firstAttribute="leading" secondItem="YFq-qj-8kf" secondAttribute="leading" constant="16" id="glD-vT-wAU"/>
+                            <constraint firstItem="5L1-Kx-kxU" firstAttribute="leading" secondItem="YFq-qj-8kf" secondAttribute="leading" constant="16" id="jAV-ng-RVB"/>
                             <constraint firstItem="QfA-Nb-fQi" firstAttribute="top" secondItem="YFq-qj-8kf" secondAttribute="top" constant="16" id="kbF-F1-IDn"/>
                             <constraint firstItem="snS-od-ZTF" firstAttribute="top" secondItem="YFq-qj-8kf" secondAttribute="top" constant="16" id="khh-aE-CvB"/>
                             <constraint firstItem="V3m-vO-ddG" firstAttribute="leading" secondItem="YFq-qj-8kf" secondAttribute="leading" constant="16" id="maw-i0-Bnl"/>
+                            <constraint firstItem="5L1-Kx-kxU" firstAttribute="top" secondItem="xES-2N-kQm" secondAttribute="bottom" constant="20" id="t4A-26-hri"/>
                             <constraint firstItem="FTV-3U-BPs" firstAttribute="top" secondItem="QfA-Nb-fQi" secondAttribute="bottom" constant="50" id="tB3-hD-lZs"/>
                             <constraint firstItem="QfA-Nb-fQi" firstAttribute="leading" secondItem="snS-od-ZTF" secondAttribute="trailing" constant="16" id="tzW-5Q-VeA"/>
                             <constraint firstItem="xWQ-Ib-HtD" firstAttribute="top" secondItem="Ay5-U7-mPm" secondAttribute="bottom" constant="51" id="uzI-aq-Xw7"/>
@@ -251,6 +259,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="kCo-cK-zpm"/>
                     <connections>
+                        <outlet property="countLabel" destination="5L1-Kx-kxU" id="utr-cG-rBu"/>
                         <outlet property="flowLayout" destination="w9c-1a-efN" id="D8c-7h-7Ru"/>
                         <outlet property="locattionButton" destination="8jj-wy-y9d" id="lKD-IO-P6p"/>
                         <outlet property="menuCV" destination="FTV-3U-BPs" id="P3L-Zx-g8n"/>

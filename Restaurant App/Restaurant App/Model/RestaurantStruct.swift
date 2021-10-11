@@ -127,3 +127,5 @@ let restaurants = [
                       Food(name: NSLocalizedString("Cabbage", comment: ""), image: "10-2", price: 20.0),
                       Food(name: NSLocalizedString("Mixed Mehshi", comment: ""), image: "10-3", price: 40.0)]),
 ]
+
+var visitor: [String : Int] = [:]
