@@ -16,6 +16,7 @@ class VC1: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let rest = restList[indexPath.row]
+    
         let cell = tableView.dequeueReusableCell(withIdentifier: "RestCell", for: indexPath)as! Cell1
         
         
@@ -40,6 +41,12 @@ class VC1: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rest = restList[indexPath.row]
         
+        let oldValue = counter[rest.name] ?? 0
+        counter[rest.name] = oldValue + 1
+    
+        print (counter[rest.name])
+        // label.text = "\(oldValue)"
+        
         performSegue(withIdentifier:"show_menu", sender: rest)
         
     }
@@ -51,3 +58,5 @@ class VC1: UIViewController,UITableViewDelegate,UITableViewDataSource {
         vc2.restFromVC1 = sender as? Rest
     }
 }
+
+

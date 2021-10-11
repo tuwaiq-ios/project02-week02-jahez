@@ -191,6 +191,12 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Rq-xa-fLK">
+                                <rect key="frame" x="20" y="86" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x3A-GL-I1G"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -200,6 +206,7 @@
                             <constraint firstItem="KIY-Kw-P90" firstAttribute="leading" secondItem="F9r-1g-AYo" secondAttribute="trailing" constant="22" id="IIa-EL-gym"/>
                             <constraint firstItem="BRf-HO-Glm" firstAttribute="leading" secondItem="x3A-GL-I1G" secondAttribute="leading" id="IvC-S9-plF"/>
                             <constraint firstItem="BRf-HO-Glm" firstAttribute="trailing" secondItem="x3A-GL-I1G" secondAttribute="trailing" id="KG7-70-dU1"/>
+                            <constraint firstItem="9Rq-xa-fLK" firstAttribute="leading" secondItem="x3A-GL-I1G" secondAttribute="leading" constant="20" id="KWb-So-9NH"/>
                             <constraint firstItem="txs-1P-mIB" firstAttribute="top" secondItem="FDb-US-RfS" secondAttribute="bottom" constant="20" id="LkP-AP-IEa"/>
                             <constraint firstItem="dF9-jO-dQo" firstAttribute="top" secondItem="x3A-GL-I1G" secondAttribute="top" constant="34" id="VfX-Gv-2u7"/>
                             <constraint firstItem="x3A-GL-I1G" firstAttribute="trailing" secondItem="KIY-Kw-P90" secondAttribute="trailing" constant="12" id="Yya-8D-CfK"/>
@@ -207,6 +214,7 @@
                             <constraint firstItem="F9r-1g-AYo" firstAttribute="top" secondItem="x3A-GL-I1G" secondAttribute="top" constant="34" id="ePV-Zp-X5w"/>
                             <constraint firstItem="BRf-HO-Glm" firstAttribute="bottom" secondItem="x3A-GL-I1G" secondAttribute="bottom" id="heb-5q-JxB"/>
                             <constraint firstItem="KIY-Kw-P90" firstAttribute="leading" secondItem="txs-1P-mIB" secondAttribute="trailing" constant="22" id="htF-zU-ZAS"/>
+                            <constraint firstItem="9Rq-xa-fLK" firstAttribute="top" secondItem="dF9-jO-dQo" secondAttribute="bottom" constant="31" id="kUO-AI-TLm"/>
                             <constraint firstItem="dF9-jO-dQo" firstAttribute="leading" secondItem="x3A-GL-I1G" secondAttribute="leading" constant="16" id="kh0-h8-6B9"/>
                             <constraint firstItem="FDb-US-RfS" firstAttribute="top" secondItem="F9r-1g-AYo" secondAttribute="bottom" constant="16" id="rOk-Bu-dp7"/>
                         </constraints>
@@ -219,6 +227,7 @@
                         <outlet property="restRating" destination="dF9-jO-dQo" id="I1q-Fb-uZ3"/>
                         <outlet property="restState" destination="txs-1P-mIB" id="d7C-51-kfR"/>
                         <outlet property="restType" destination="FDb-US-RfS" id="N0f-it-mB1"/>
+                        <outlet property="restVisitor" destination="9Rq-xa-fLK" id="Q1R-ti-ImK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9k-pP-5b3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

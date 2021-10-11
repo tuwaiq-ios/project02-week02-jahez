@@ -58,3 +58,4 @@ foods: [Food(
 
 )
   ]
+var counter: [String:Int] = [:]

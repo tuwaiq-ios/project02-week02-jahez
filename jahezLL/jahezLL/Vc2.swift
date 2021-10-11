@@ -8,6 +8,8 @@
 import UIKit
 class VC2: UIViewController , UITableViewDelegate,UITableViewDataSource{
     
+  
+    
     
     var restFromVC1: Rest?
     
@@ -37,6 +39,8 @@ class VC2: UIViewController , UITableViewDelegate,UITableViewDataSource{
     @IBOutlet weak var restState: UILabel!
     @IBOutlet weak var restRating: UILabel!
     
+    @IBOutlet weak var restVisitor: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,7 +50,8 @@ class VC2: UIViewController , UITableViewDelegate,UITableViewDataSource{
         restState.text = restFromVC1?.state
         restLogo.image = UIImage(named: restFromVC1!.logo)
         restRating.text = "\(restFromVC1!.rating)"
-        
+        let oldValue = counter[restFromVC1!.name] ?? 0
+            restVisitor.text = "\(oldValue)"
         menuTV.delegate = self
         menuTV.dataSource = self
 }
