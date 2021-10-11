@@ -52,11 +52,11 @@ let restList = [
         ]
     ),
     Rest(
-        name: "مشاوي صح",
-        type: "مشويات",
-        state: "مغلق",
-        rating: 4,
-        logo: "مشاوي صح",
+        name: "هابي تشيكن",
+        type: "بروست",
+        state: "مفتوح",
+        rating: 2,
+        logo: "هابي",
         foods: [
             Food(
                 name: "بيتزا",
@@ -66,3 +66,4 @@ let restList = [
         ]
     )
 ]
+var counter : [String : Int] = [:]

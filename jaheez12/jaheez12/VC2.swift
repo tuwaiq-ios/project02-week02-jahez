@@ -30,6 +30,8 @@ class VC2 : UIViewController ,UITableViewDelegate , UITableViewDataSource{
     
     var restFromVC1:Rest?
     
+    @IBOutlet weak var co: UILabel!
+    
     @IBOutlet weak var menuTV: UITableView!
     @IBOutlet weak var restRating: UILabel!
     @IBOutlet weak var restState: UILabel!
@@ -45,6 +47,12 @@ class VC2 : UIViewController ,UITableViewDelegate , UITableViewDataSource{
         restLogo.image = UIImage(named: restFromVC1!.logo)
         restState.text = restFromVC1?.state
         restRating.text = "\(restFromVC1!.rating)"
+        
+        
+        
+        let value = counter[restFromVC1!.name] ?? 0
+        co.text = "\(value)"
+        
         
         menuTV.delegate = self
         menuTV.dataSource = self
