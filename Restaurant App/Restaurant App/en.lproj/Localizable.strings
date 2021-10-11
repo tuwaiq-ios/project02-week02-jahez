@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Restaurant App
+
+  Created by Eth Os on 03/03/1443 AH.
+  
+*/
+"Jahez" = "Jahez";
+"OPEN" = "OPEN";
+"CLOSED" = "CLOSED";
+"Location" = "Location";
+"Gorno" = "Gorno";
+"Italian" = "Italian";
+"Pizza" = "Pizza";
+"Fettuccine Alfredo" = "Fettuccine Alfredo";
+"Tuscan" = "Tuscan";
+"Gold Sushi" = "Gold Sushi";
+"Japanese" = "Japanese";
+"Vegetable Sushi" = "Vegetable Sushi";
+"Crispy Sushi" = "Crispy Sushi";
+"Original Sushi" = "Original Sushi";
+"Tim Hortons" = "Tim Hortons";
+"Coffee" = "Coffee";
+"Black Coffee" = "Black Coffee";
+"White Mocha" = "White Mocha";
+"Donuts" = "Donuts";
+"Maharani" = "Maharani";
+"Indian" = "Indian";
+"Chicken Masala" = "Chicken Masala";
+"Chicken Curry" = "Chicken Curry";
+"Indian Salad" = "Indian Salad";
+"McDonalds" = "McDonalds";
+"Fast Food" = "Fast Food";
+"Grand Chicken Special" = "Grand Chicken Special";
+"Mac Arabic Chicken" = "Mac Arabic Chicken";
+"Chicken McNuggets" = "Chicken McNuggets";
+"Starbucks" = "Starbucks";
+"Americano" = "Americano";
+"Ice White Mocha" = "Ice White Mocha";
+"Croissant" = "Croissant";
+"2 Eat" = "2 Eat";
+"2 Eight Burger" = "2 Eight Burger";
+"Truffle Fries" = "Truffle Fries";
+"2 Eat Salad" = "2 Eat Salad";
+"Kiwi" = "Kiwi";
+"Juices and Ice Cream" = "Juices and Ice Cream";
+"Mango Juice" = "Mango Juice";
+"Watermelon Ice Cream" = "Watermelon Ice Cream";
+"Blueberry Ice Cream" = "Blueberry Ice Cream";
+"Shrimp Nation" = "Shrimp Nation";
+"Seafood" = "Seafood";
+"Oyster" = "Oyster";
+"Shrimp" = "Shrimp";
+"Dynamite" = "Dynamite";
+"A3nab" = "A3nab";
+"Arabic Foods" = "Arabic Foods";
+"Grape Leaves" = "Grape Leaves";
+"Cabbage" = "Cabbage";
+"Mixed Mehshi" = "Mixed Mehshi";

@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; configuration.title = "Location"; ObjectID = "8jj-wy-y9d"; */
+"8jj-wy-y9d.configuration.title" = "Location";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8jj-wy-y9d"; */
+"8jj-wy-y9d.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ay5-U7-mPm"; */
+"Ay5-U7-mPm.text" = "Label";
+
+/* Class = "UILabel"; text = "Restaurant name"; ObjectID = "Exq-5Z-TAg"; */
+"Exq-5Z-TAg.text" = "Restaurant name";
+
+/* Class = "UILabel"; text = "Food Name"; ObjectID = "GRD-Bm-3QG"; */
+"GRD-Bm-3QG.text" = "Food Name";
+
+/* Class = "UILabel"; text = "Open"; ObjectID = "OcG-Pe-kik"; */
+"OcG-Pe-kik.text" = "Open";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "V3m-vO-ddG"; */
+"V3m-vO-ddG.text" = "Label";
+
+/* Class = "UILabel"; text = "Food Price"; ObjectID = "ffo-D1-a1h"; */
+"ffo-D1-a1h.text" = "Food Price";
+
+/* Class = "UILabel"; text = "Rating"; ObjectID = "nWL-iZ-jVp"; */
+"nWL-iZ-jVp.text" = "Rating";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "o4N-rs-W2x"; */
+"o4N-rs-W2x.text" = "Time";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "pIN-ms-6vu"; */
+"pIN-ms-6vu.text" = "Type";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "snS-od-ZTF"; */
+"snS-od-ZTF.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xES-2N-kQm"; */
+"xES-2N-kQm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xWQ-Ib-HtD"; */
+"xWQ-Ib-HtD.text" = "Label";
