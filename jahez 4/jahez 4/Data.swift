@@ -54,4 +54,6 @@ let restList = [
          ]
      ),
 ]
-        
+  
+
+var counter:[String:Int]=[:]

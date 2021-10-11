@@ -47,8 +47,16 @@ class VC2: UIViewController ,UITableViewDelegate ,UITableViewDataSource {
         restLogo.image = UIImage(named: restFromVC1!.logo)
         restRating.text = "\(restFromVC1!.rating)"
         
+        Counterpress.text = "\( counter[restFromVC1!.name]!)"
+        
+        
+        
         menuTV.delegate = self
         menuTV.dataSource = self 
     }
+    @IBOutlet weak var Counterpress: UILabel!
 }
+
+
+ 
 

@@ -41,6 +41,10 @@ class VC1: UIViewController , UITableViewDelegate , UITableViewDataSource {
        
         let rest = restList[indexPath.row]
         
+        let oldValue = counter[rest.name] ?? 0
+       counter[rest.name] = oldValue + 1
+        
+        
         performSegue(
             withIdentifier: "show_menu",
             sender: rest
