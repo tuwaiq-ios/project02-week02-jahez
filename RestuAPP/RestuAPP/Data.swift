@@ -25,7 +25,7 @@ struct Food {
 }
 
 
-let restList = [ Rest(name: " سبايس شو",
+let restList = [ Rest(name: " Spice Show-سبايس شو",
                  type: "مأكولات إيطاليه",
                  State: "مفتوح",
                  rating: 5,
@@ -36,7 +36,7 @@ let restList = [ Rest(name: " سبايس شو",
                     Food(name: "سلطه سيزر ", image: "R1i3", price: 32.50)
                  ]
 ),
-Rest(name: "شيف بايت",
+Rest(name: "CHEF - شيف بايت",
                  type: "ستيك ",
                  State: "مفتوح",
                  rating: 5,
@@ -47,19 +47,19 @@ Rest(name: "شيف بايت",
                     Food(name: "ورق عنب", image: "R2i3", price: 30.99)
                  ]
 ),
-                 Rest(name: "نواة",
+                 Rest(name: "Nawah - نواة",
                                   type: "قهوه - حلويات ",
                                   State: "مفتوح",
                                   rating: 5,
                                   logo: "R3",
                                   Foods: [
-                                     Food(name:"كورتادو", image: "R4i1", price: 15.59),
-                                     Food(name: "سبانيش لاتيه", image: "R4i2", price: 16.99),
-                                     Food(name: "فلات وايت", image: "R4i3", price: 15.59)
+                                     Food(name:"كورتادو", image: "R3i1", price: 15.59),
+                                     Food(name: "سبانيش لاتيه", image: "R3i2", price: 16.99),
+                                     Food(name: "فلات وايت", image: "R3i3", price: 15.59)
                                   ]
                  )
                    ,
-                 Rest(name: "ليتل سيزر ",
+                 Rest(name: " Little Caesars- ليتل سيزر",
                                   type: "بيتزا",
                                   State: "مفتوح",
                                   rating: 4,
