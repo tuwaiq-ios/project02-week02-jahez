@@ -191,6 +191,13 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feg-Mu-xuN">
+                                <rect key="frame" x="16" y="138" width="55" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="l6u-i0-lLM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -213,6 +220,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="9bQ-iq-cet"/>
                     <connections>
+                        <outlet property="counter" destination="Feg-Mu-xuN" id="Kxa-Bh-uME"/>
                         <outlet property="menuTV" destination="iQh-GO-8ua" id="yt0-HD-NPY"/>
                         <outlet property="restLogo" destination="fJt-MQ-DNn" id="qmL-nY-VDo"/>
                         <outlet property="restName" destination="eIw-BO-u04" id="CNR-Do-hGs"/>

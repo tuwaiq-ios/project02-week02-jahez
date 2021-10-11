@@ -14,6 +14,7 @@ struct Rest {
     let rating: Int
     let logo: String
     let foods: Array<Food>
+
 }
 
 
@@ -63,3 +64,6 @@ let restlist = [
 
 
 ]
+
+var coun : [String:Int] =  [:]
+

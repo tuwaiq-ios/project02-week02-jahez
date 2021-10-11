@@ -31,6 +31,8 @@ class VC2: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     var restFromVC1: Rest?
     
+    @IBOutlet weak var counter: UILabel!
+    
     @IBOutlet weak var menuTV: UITableView!
     
     @IBOutlet weak var restLogo: UIImageView!
@@ -44,6 +46,9 @@ class VC2: UIViewController,UITableViewDelegate,UITableViewDataSource {
     @IBOutlet weak var restRate: UILabel!
     
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -53,6 +58,10 @@ class VC2: UIViewController,UITableViewDelegate,UITableViewDataSource {
         restState.text = restFromVC1?.state
         restRate.text = "\(restFromVC1!.rating)"
         
+        
+        let Value = coun[restFromVC1!.name] ?? 0
+        
+        counter.text = "\(Value)"
         
         
         menuTV.delegate = self
