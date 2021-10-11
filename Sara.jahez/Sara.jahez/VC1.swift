@@ -39,9 +39,16 @@ class VC1: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+       
         let rest = restList[indexPath.row]
         
         //1- send (rest) to the next page by runing the link line...
+       
+        //counter
+        let oldValue = counter[rest.name] ?? 0
+        counter[rest.name] = oldValue + 1
+      //  print(counter[rest.name])
+        
         performSegue(withIdentifier:"show_menu", sender: rest)
     }
     

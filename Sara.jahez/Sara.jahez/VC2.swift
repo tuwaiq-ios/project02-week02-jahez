@@ -12,11 +12,33 @@ class VC2: UIViewController,UITableViewDelegate,UITableViewDataSource {
         return restFromVC1?.foods.count ?? 0
     }
     
+    @IBOutlet weak var restVesetor: UILabel!
+    //make count variable 0
+    // counter = 0
+    
+    
+    //2 transfor int to string
+   // counter.text = "\(counter)"
+    //add 1 to count variable
+    //counter += 1
+  
+  
+  //1 transfor int to string
+
+ // counter.text = String(describing: count)
+    //
+   
+  
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
        
         let food = restFromVC1!.foods[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier:"FoodCell",
              for: indexPath) as! Cell2
+        //counter
+        
+        
         
         cell.foodName.text = food.name
         cell.foodPrice.text = "\(food.price)"
@@ -42,8 +64,12 @@ class VC2: UIViewController,UITableViewDelegate,UITableViewDataSource {
         restTybe.text = restFromVC1?.type
         restLogo.image = UIImage(named: restFromVC1!.logo)
         restState.text = restFromVC1?.state
-        restRating.text = "\(restFromVC1!.rating)"
+        restRating.text = "\(restFromVC1!.rating)⭐️"
     
+       // restVesetor.text = counter[rest.name]
+        let oldValue = counter[restFromVC1!.name] ?? 0
+        restVesetor.text = "\(oldValue)V👁"
+       
         menuTV.delegate = self
         menuTV.dataSource = self
     }

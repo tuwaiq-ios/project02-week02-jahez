@@ -9,7 +9,7 @@ import UIKit
 struct Rest {
     let name: String
     let type: String
-    let rating: Int
+    let rating: String
     let state: String
     let logo: String
     let foods: Array<Food>
@@ -19,11 +19,13 @@ struct Food {
     let image: String
     let price: Double
 }
+//counter
+var counter: [String:Int]=[:]
 
 let restList = [
             Rest(name: "ALTAZAJ",
                  type: "Arabic",
-                 rating: 4 ,
+                 rating: "⭐️⭐️" ,
                  state: "Open",
                  logo: "altazaj",
                  foods: [Food(name: "Checin",
@@ -37,7 +39,7 @@ let restList = [
                             price: 12)]),
             Rest(name: "I'm Hungry",
                 type: "burger",
-                rating: 4 ,
+                rating: "⭐️⭐️⭐️" ,
                 state: "Open",
                 logo: "imhungry",
                 foods: [Food(name: "burger",
@@ -51,7 +53,7 @@ let restList = [
                              price: 12)]),
             Rest(name: "ANJILINA",
                 type: "French Food",
-                rating: 5 ,
+                rating: "⭐️⭐️⭐️⭐️" ,
                 state: "Open",
                 logo: "anjili",
                 foods: [Food(name: "aclir",
@@ -65,7 +67,7 @@ let restList = [
                              price: 35)]),
             Rest(name: "ALBAIK",
                 type: "FastFood",
-                rating: 4 ,
+                rating: "⭐️⭐️⭐️" ,
                 state: "Open",
                 logo: "albaik",
                 foods: [Food(name: "shrimp",
