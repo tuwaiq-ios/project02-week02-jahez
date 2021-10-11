@@ -191,6 +191,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJW-lL-nGd">
+                                <rect key="frame" x="16" y="123" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mBX-kU-XZm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -207,7 +213,9 @@
                             <constraint firstItem="0IQ-dS-hLO" firstAttribute="top" secondItem="mBX-kU-XZm" secondAttribute="top" constant="34" id="Zk7-WR-NV5"/>
                             <constraint firstItem="7Ed-mv-dJ6" firstAttribute="top" secondItem="mBX-kU-XZm" secondAttribute="top" constant="34" id="gPB-qs-MTO"/>
                             <constraint firstItem="Hqd-O9-lLZ" firstAttribute="top" secondItem="7Ob-my-sHg" secondAttribute="bottom" constant="10" id="iaN-fe-3it"/>
+                            <constraint firstItem="Hqd-O9-lLZ" firstAttribute="top" secondItem="aJW-lL-nGd" secondAttribute="bottom" constant="30" id="oRI-ON-jZg"/>
                             <constraint firstItem="Hqd-O9-lLZ" firstAttribute="leading" secondItem="mBX-kU-XZm" secondAttribute="leading" id="tpr-SO-UNf"/>
+                            <constraint firstItem="aJW-lL-nGd" firstAttribute="leading" secondItem="mBX-kU-XZm" secondAttribute="leading" constant="16" id="waf-uX-JZB"/>
                             <constraint firstItem="7Ob-my-sHg" firstAttribute="top" secondItem="mBX-kU-XZm" secondAttribute="top" constant="34" id="wol-ba-Jzc"/>
                         </constraints>
                     </view>
@@ -219,6 +227,7 @@
                         <outlet property="restaurantRating" destination="0IQ-dS-hLO" id="Vlr-6P-6dB"/>
                         <outlet property="restaurantState" destination="bh6-I9-slS" id="IGc-Aw-bJG"/>
                         <outlet property="restaurantType" destination="TE5-48-BFk" id="D2y-vp-NhB"/>
+                        <outlet property="restaurantVist" destination="aJW-lL-nGd" id="Lrv-t6-j9g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7t7-UF-bcg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

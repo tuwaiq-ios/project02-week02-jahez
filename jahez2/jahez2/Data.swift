@@ -60,3 +60,5 @@ let restaurants = [
     foods: [Food(
         name: "نصف ذبيحة", image: "bn1", price: 550)])
 ]
+
+var counter: [String: Int] = [:] // تعريف دكشنري 

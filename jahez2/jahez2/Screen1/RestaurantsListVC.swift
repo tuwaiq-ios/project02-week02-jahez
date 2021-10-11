@@ -38,6 +38,9 @@ class RestaurantsListVC: UIViewController, UITableViewDelegate, UITableViewDataS
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rest = restaurants[indexPath.row]
         
+        let oldValue = counter[rest.name] ?? 0
+        counter[rest.name] = oldValue + 1
+        
         performSegue(withIdentifier: "openMenu", sender: rest)
         
     }
@@ -47,6 +50,7 @@ class RestaurantsListVC: UIViewController, UITableViewDelegate, UITableViewDataS
         
         let restMenu = segue.destination as! RestaurantMenuVC
         restMenu.restFromList = sender as? Restaurant
+        
         
     }
 }

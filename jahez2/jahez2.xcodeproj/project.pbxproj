@@ -45,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4A595C27142D3500065242 /* Screen1 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD5BA8D2712CDEC00EE1A17 /* RestaurantsListVC.swift */,
+				0FD5BA912712D0EC00EE1A17 /* RestaurantCell.swift */,
+			);
+			path = Screen1;
+			sourceTree = "<group>";
+		};
+		0F4A595D27142D4E00065242 /* Screen2 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD5BA8F2712CE1A00EE1A17 /* RestaurantMenuVC.swift */,
+				0FD5BA932712D10800EE1A17 /* MenuCell.swift */,
+			);
+			path = Screen2;
+			sourceTree = "<group>";
+		};
 		0FD5BA6D2712C0F800EE1A17 = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +84,8 @@
 			children = (
 				0FD5BA792712C0F800EE1A17 /* AppDelegate.swift */,
 				0FD5BA7B2712C0F800EE1A17 /* SceneDelegate.swift */,
-				0FD5BA8D2712CDEC00EE1A17 /* RestaurantsListVC.swift */,
-				0FD5BA912712D0EC00EE1A17 /* RestaurantCell.swift */,
-				0FD5BA8F2712CE1A00EE1A17 /* RestaurantMenuVC.swift */,
-				0FD5BA932712D10800EE1A17 /* MenuCell.swift */,
+				0F4A595C27142D3500065242 /* Screen1 */,
+				0F4A595D27142D4E00065242 /* Screen2 */,
 				0FD5BA952712DA8500EE1A17 /* Data.swift */,
 				0FD5BA7F2712C0F800EE1A17 /* Main.storyboard */,
 				0FD5BA822712C0F900EE1A17 /* Assets.xcassets */,

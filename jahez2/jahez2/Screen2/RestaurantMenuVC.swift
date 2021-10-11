@@ -10,7 +10,7 @@ import UIKit
 class RestaurantMenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var restFromList : Restaurant?
-    var text = ""
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restFromList?.foods.count ?? 0
@@ -24,6 +24,8 @@ class RestaurantMenuVC: UIViewController, UITableViewDelegate, UITableViewDataSo
         cell.foodName.text = food.name
         cell.foodImage.image = UIImage(named: food.image)
         cell.foodPrice.text = "\(food.price)"
+        cell.foodName.backgroundColor = UIColor.blue
+        cell.foodName.textColor = UIColor.white
         
         return cell
     }
@@ -34,6 +36,7 @@ class RestaurantMenuVC: UIViewController, UITableViewDelegate, UITableViewDataSo
     @IBOutlet weak var restaurantType: UILabel!
     @IBOutlet weak var restaurantState: UILabel!
     @IBOutlet weak var restaurantRating: UILabel!
+    @IBOutlet weak var restaurantVist: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +46,14 @@ class RestaurantMenuVC: UIViewController, UITableViewDelegate, UITableViewDataSo
         restaurantLogo.image = UIImage(named: restFromList!.logo)
         restaurantRating.text = "\(restFromList!.rating)"
         restaurantState.text = restFromList?.state
-        
+        restaurantVist.text = "\(counter[restFromList!.name]!)"
+        menuTV.backgroundView = UIImageView(image: UIImage(named: "1"))
+        reataurantName.backgroundColor = UIColor.gray
+        restaurantState.backgroundColor = UIColor.gray
+        restaurantVist.backgroundColor = UIColor.green
+        reataurantName.textColor = UIColor.white
+        restaurantState.textColor = UIColor.white
+
         
         menuTV.delegate = self
         menuTV.dataSource = self
