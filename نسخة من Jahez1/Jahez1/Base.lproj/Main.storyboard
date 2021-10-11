@@ -192,10 +192,17 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aeg-Nx-vam">
+                                <rect key="frame" x="16" y="93" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m1Z-Lg-jH4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Yjp-I9-8Zu" firstAttribute="top" secondItem="Aeg-Nx-vam" secondAttribute="bottom" constant="35" id="2z5-XM-z0e"/>
                             <constraint firstItem="bxI-M2-Dgv" firstAttribute="top" secondItem="m1Z-Lg-jH4" secondAttribute="top" constant="35" id="7BB-qr-Iwq"/>
                             <constraint firstItem="jgL-mf-Edt" firstAttribute="top" secondItem="m1Z-Lg-jH4" secondAttribute="top" constant="35" id="Frr-nl-IZu"/>
                             <constraint firstItem="TdK-th-oDT" firstAttribute="top" secondItem="8pb-VD-g3R" secondAttribute="top" constant="35" id="G7X-B1-m84"/>
@@ -209,11 +216,13 @@
                             <constraint firstItem="TdK-th-oDT" firstAttribute="leading" secondItem="k0P-yy-o2B" secondAttribute="trailing" constant="12" id="lm5-UH-mXc"/>
                             <constraint firstItem="Yjp-I9-8Zu" firstAttribute="leading" secondItem="m1Z-Lg-jH4" secondAttribute="leading" id="p9k-KQ-uVX"/>
                             <constraint firstItem="m1Z-Lg-jH4" firstAttribute="trailing" secondItem="Yjp-I9-8Zu" secondAttribute="trailing" id="wu8-Bw-GNG"/>
+                            <constraint firstItem="Aeg-Nx-vam" firstAttribute="leading" secondItem="m1Z-Lg-jH4" secondAttribute="leading" constant="16" id="yH5-aQ-fL6"/>
                             <constraint firstItem="Yjp-I9-8Zu" firstAttribute="top" secondItem="k0P-yy-o2B" secondAttribute="bottom" constant="15" id="zDJ-do-buP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n2M-8L-OkG"/>
                     <connections>
+                        <outlet property="counter" destination="Aeg-Nx-vam" id="QMu-J9-Cj7"/>
                         <outlet property="menuTV" destination="Yjp-I9-8Zu" id="ZHJ-yY-Ayi"/>
                         <outlet property="restLogo" destination="TdK-th-oDT" id="ytb-i9-gRE"/>
                         <outlet property="restName" destination="bxI-M2-Dgv" id="S6o-DK-H6R"/>

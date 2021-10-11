@@ -40,9 +40,13 @@ class VC1: UIViewController , UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rest = restList[indexPath.row]
         
-        performSegue(withIdentifier: "show_menu"  , sender: rest
-        )
+        let oldValue = count1[rest.name] ?? 0
+        count1[rest.name] = oldValue + 1
         
+        performSegue(withIdentifier: "show_menu"  , sender: rest
+      
+        
+        )
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

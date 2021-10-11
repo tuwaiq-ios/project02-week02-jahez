@@ -25,6 +25,11 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     var restFromVC2: Rest?
+    
+    ///counter
+    @IBOutlet weak var counter: UILabel!
+    ///
+    
     @IBOutlet weak var menuTV: UITableView!
     
     
@@ -40,6 +45,9 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let Value = count1[restFromVC2!.name] ?? 0
+        counter.text = "\(Value)"
         
         restName.text = restFromVC2?.name
         restType.text = restFromVC2?.type
