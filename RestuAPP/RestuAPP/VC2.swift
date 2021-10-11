@@ -37,7 +37,7 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var restType: UILabel!
     @IBOutlet weak var restState: UILabel!
     @IBOutlet weak var restRating: UILabel!
-    
+    @IBOutlet weak var conntLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,8 +46,13 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
         restType.text = restFromVC1?.type
         restState.text = restFromVC1?.State
         restRating.text = "\(restFromVC1!.rating)"
-        
+        conntLabel.text = "\( counter[restFromVC1!.name]!)"
         menuTV.delegate = self
         menuTV.dataSource = self
     }
+    
+    
+    
 }
+
+

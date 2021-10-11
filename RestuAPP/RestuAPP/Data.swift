@@ -46,3 +46,4 @@ let restList = [ Rest(name: "فرن الضيعة",
                  ]
 )
 ]
+var counter : [String : Int] = [:]
