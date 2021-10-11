@@ -26,7 +26,7 @@ class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
          
          return cell
  
-     }
+    }
     
     @IBOutlet var restTV: UITableView!
          
@@ -37,8 +37,14 @@ class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
              restTV.dataSource = self
              
          }
+
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rest = restList[indexPath.row]
+        
+        let oldValue = counter[rest.name] ?? 0
+        counter[rest.name] = oldValue + 1
+
         
         performSegue(withIdentifier: "show-menu", sender: rest)
         
@@ -48,5 +54,5 @@ class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         let vc2 = segue.destination as! VC2
         vc2.restFromVC1 = sender as? Rest
-    }
+     }
      }

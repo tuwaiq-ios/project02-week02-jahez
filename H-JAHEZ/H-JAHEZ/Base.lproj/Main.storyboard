@@ -85,7 +85,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tN4-vk-eXk" secondAttribute="bottom" id="7y8-9E-dlc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tN4-vk-eXk" secondAttribute="trailing" id="9dU-fb-ZbJ"/>
@@ -191,9 +191,16 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AK0-Mw-YXH">
+                                <rect key="frame" x="20" y="143" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YVS-es-0Nk"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="EVB-UC-6p0" firstAttribute="leading" secondItem="nI2-uA-bbC" secondAttribute="trailing" constant="12" id="5Ea-HG-hjB"/>
                             <constraint firstItem="EVB-UC-6p0" firstAttribute="top" secondItem="YVS-es-0Nk" secondAttribute="top" constant="34" id="DED-zV-625"/>
@@ -219,6 +226,7 @@
                         <outlet property="restRating" destination="bHQ-CR-DiJ" id="bb7-V2-cfv"/>
                         <outlet property="restState" destination="OQ1-Gc-Z6s" id="J6s-GW-sjt"/>
                         <outlet property="restType" destination="72a-QX-PCY" id="RSX-A8-f6C"/>
+                        <outlet property="visitLable" destination="AK0-Mw-YXH" id="mx1-X4-ATz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWl-IV-yUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -229,6 +237,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -53,8 +53,16 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
         restState.text = restFromVC1?.state
         restLogo.image = UIImage(named: restFromVC1!.logo)
         restRating.text = "\(restFromVC1!.rating)"
+        visitLable.text = "\(counter[restFromVC1!.name] ?? 0 )"
         
         menuTV.delegate = self
         menuTV.dataSource = self
+
     }
+    
+    
+    @IBOutlet var visitLable: UILabel!
+    
+    
+
     }

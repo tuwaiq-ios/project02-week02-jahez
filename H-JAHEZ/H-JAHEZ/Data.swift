@@ -55,8 +55,10 @@ let restList = [
     rating: 4 ,
     logo: "pizza1",
     foods: [
-        Food (name: "fries" , image:"fries" , price: 35
+        Food (name: "fries" , image:"fries" , price: 12
              )
     ]
 )
 ]
+
+var counter:[String:Int] = [:]
