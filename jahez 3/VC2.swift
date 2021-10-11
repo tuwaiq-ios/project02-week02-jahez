@@ -42,8 +42,13 @@ class VC2 : UIViewController , UITableViewDelegate , UITableViewDataSource {
         restState.text = restfromVC1?.State
         restLogo.image = UIImage(named: restfromVC1!.logo)
         restRating.text = "\(restfromVC1!.rating)"
-
+        labelCount.text = "\(counter[restfromVC1!.name]! )"
+        
         menuTV.delegate = self
         menuTV.dataSource = self
     }
+    
+  
+    @IBOutlet weak var labelCount: UILabel!
+   
 }

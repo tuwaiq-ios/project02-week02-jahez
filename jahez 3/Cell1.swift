@@ -15,4 +15,5 @@ class Cell1 : UITableViewCell {
     @IBOutlet weak var restType: UILabel!
     @IBOutlet weak var restState: UILabel!
     @IBOutlet weak var restRating: UILabel!
+    
 }

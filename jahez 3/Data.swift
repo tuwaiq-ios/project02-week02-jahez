@@ -39,5 +39,6 @@ Rest(name:"سمك بحري", type:"مآكولات بحريه", State: "مفتو�
 ]
 
 
+var counter : [String:Int] = [:]
 
 
