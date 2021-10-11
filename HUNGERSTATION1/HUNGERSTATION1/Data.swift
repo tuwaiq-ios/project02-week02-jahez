@@ -23,7 +23,6 @@ struct Food{
 }
 
 
-
 let restList = [
     Rest(name: "كودو",
          type: "وجبات سريعه",
@@ -49,4 +48,5 @@ let restList = [
         )
     ]
          
-        
+
+var counter : [String : Int ] = [:]

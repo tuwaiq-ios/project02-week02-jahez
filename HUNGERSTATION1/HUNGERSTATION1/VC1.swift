@@ -7,7 +7,10 @@
 
 import UIKit
 
+
 class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restList.count
     }
@@ -41,6 +44,10 @@ class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rest = restList[indexPath.row]
+        
+        let oldValue = counter [rest.name] ?? 0
+        counter [rest.name] = oldValue + 1
+        
         
         performSegue(withIdentifier: "show_menu",
                      sender: rest

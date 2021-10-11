@@ -7,6 +7,9 @@
 
 import UIKit
 class VC2: UIViewController,UITableViewDelegate, UITableViewDataSource{
+    
+    @IBOutlet weak var count: UILabel!
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restFromVC1?.foods.count ?? 0
     }
@@ -54,7 +57,10 @@ class VC2: UIViewController,UITableViewDelegate, UITableViewDataSource{
         restType.text = restFromVC1?.type
         restState.text = restFromVC1?.state
         restLogo.image = UIImage(named: restFromVC1!.logo)
-        restRating.text = "\(restFromVC1?.rating)"
+        restRating.text = "\(restFromVC1!.rating)"
+       
+        let oldValue = counter [restFromVC1!.name] ?? 0
+        count.text = "\(oldValue)"
         
         menuTV.delegate = self
         menuTV.dataSource = self
