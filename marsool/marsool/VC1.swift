@@ -40,13 +40,18 @@ class VC1: UIViewController,UITableViewDelegate,UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rest = restlist[indexPath.row]
-        
+        let oldValue = count[rest.name] ?? 0
+        count[rest.name] = oldValue + 1
+                
 performSegue(withIdentifier: "show_menu", sender: rest)    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         let vc2 = segue.destination as!VC2
         vc2.restFromVC1 = sender as?Rest
+        
+        
     }
+    
     
 }

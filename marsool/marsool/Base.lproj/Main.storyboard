@@ -186,6 +186,12 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gL-PD-8tz">
+                                <rect key="frame" x="363" y="112.5" width="36" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t24-nL-FxE"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -196,7 +202,9 @@
                             <constraint firstItem="2aj-p5-HuQ" firstAttribute="top" secondItem="t24-nL-FxE" secondAttribute="top" constant="34" id="9A5-TN-rsT"/>
                             <constraint firstItem="Ino-pm-QAM" firstAttribute="top" secondItem="Zoj-gC-AwZ" secondAttribute="bottom" constant="10" id="DFb-oF-bh6"/>
                             <constraint firstItem="0wR-Vd-EfB" firstAttribute="leading" secondItem="Zoj-gC-AwZ" secondAttribute="trailing" constant="12" id="HDe-3j-3Vf"/>
+                            <constraint firstItem="t24-nL-FxE" firstAttribute="trailing" secondItem="5gL-PD-8tz" secondAttribute="trailing" constant="15" id="Ibh-7Z-CIy"/>
                             <constraint firstItem="SuX-vd-C12" firstAttribute="top" secondItem="2aj-p5-HuQ" secondAttribute="bottom" constant="15" id="Mgy-c1-WIR"/>
+                            <constraint firstItem="Ino-pm-QAM" firstAttribute="top" secondItem="5gL-PD-8tz" secondAttribute="bottom" constant="41" id="UNP-Vv-7fe"/>
                             <constraint firstItem="2aj-p5-HuQ" firstAttribute="leading" secondItem="Zoj-gC-AwZ" secondAttribute="trailing" constant="12" id="W7G-4b-Naz"/>
                             <constraint firstItem="Zoj-gC-AwZ" firstAttribute="top" secondItem="t24-nL-FxE" secondAttribute="top" constant="34" id="eLs-F1-BGr"/>
                             <constraint firstItem="t24-nL-FxE" firstAttribute="bottom" secondItem="Ino-pm-QAM" secondAttribute="bottom" id="g5j-dB-iaE"/>
@@ -214,6 +222,7 @@
                         <outlet property="restRating" destination="cnX-UP-5CS" id="7ah-Pc-uGz"/>
                         <outlet property="restState" destination="0wR-Vd-EfB" id="DVh-Es-gYb"/>
                         <outlet property="restType" destination="SuX-vd-C12" id="Lkr-FH-JCk"/>
+                        <outlet property="visitCount" destination="5gL-PD-8tz" id="DOM-p7-WHU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1g-LP-d8D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -29,6 +29,7 @@ class VC2: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
     var restFromVC1:Rest?
     
+    
     @IBOutlet weak var restLogo: UIImageView!
     @IBOutlet weak var menuTV: UITableView!
     
@@ -38,17 +39,16 @@ class VC2: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet weak var restState: UILabel!
     @IBOutlet weak var restType: UILabel!
+    @IBOutlet weak var visitCount: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         restName.text = restFromVC1?.name
         restType.text = restFromVC1?.type
         restState.text = restFromVC1?.state
-        restRating.text = ("\restFromVC1!rating")
+        restRating.text = "\(restFromVC1!.rating)"
         restLogo.image = UIImage(named: restFromVC1!.logo)
-            
-            
-            
+        visitCount.text = "\(count[restFromVC1!.name] ?? 0)"
            menuTV.delegate = self
             menuTV.dataSource = self
 

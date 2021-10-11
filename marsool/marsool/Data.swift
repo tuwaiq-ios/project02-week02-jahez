@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 struct Rest {
     let name: String
     let type: String
@@ -55,11 +56,17 @@ let restlist = [Rest(name: "Albaik",
                      logo: "Real burger",
                      foods: [Food(name: "beef burger", image: "beef burger", price:46.00),
                              Food(name: "chiken burger", image: "chiken burger", price: 50.00)
-                                 ]) ,
-                
-                
-                
+                                 ]) ,                
 ]
+
+
+var count : [String:Int] = [: ]
+
+
+
+
+
+
 
 
 
