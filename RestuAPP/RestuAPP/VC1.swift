@@ -25,6 +25,7 @@ class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell.restState.text = rest.State
         cell.restType.text = rest.type
         
+        
         return cell
     }
     
@@ -43,7 +44,15 @@ class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+    
         let rest = restList[indexPath.row]
+        
+        //for counter
+        let oldValue = counter[rest.name] ?? 0
+         counter[rest.name] = oldValue + 1
+       
+        
+        //
         performSegue(withIdentifier: "show_menu", sender: rest)
         
     }

@@ -18,6 +18,8 @@ struct Rest {
     let Foods: Array<Food>
 }
 
+
+
 struct Food {
     let name: String
     let image: String
@@ -42,9 +44,10 @@ Rest(name: "CHEF - شيف بايت",
                  rating: 5,
                  logo: "R2",
                  Foods: [
-                    Food(name: "واغيو ستيك", image: "R2i1", price: 78.99),
+                   
                     Food(name:  "كوزو صاج", image: "R2i2", price: 65.99),
-                    Food(name: "ورق عنب", image: "R2i3", price: 30.99)
+                    Food(name: "ورق عنب", image: "R2i3", price: 30.99),
+                    Food(name: "واغيو ستيك", image: "R2i1", price: 78.99)
                  ]
 ),
                  Rest(name: "Nawah - نواة",
@@ -58,7 +61,41 @@ Rest(name: "CHEF - شيف بايت",
                                      Food(name: "فلات وايت", image: "R3i3", price: 15.59)
                                   ]
                  )
-                   ,
+                   , Rest(name:  "Horof- حروف",
+                          type: "مشروبات-حلويات ",
+                          State: "مفتوح",
+                          rating: 4,
+                          logo: "R7",
+                          Foods: [
+                             Food(name: " كريب بستاشيو", image: "r7i1", price: 27.99),
+                             Food(name: " ميني بان كيك مكس", image: "r7i2", price: 28.99),
+                             Food(name: " رد فلفت ", image: "r7i3", price: 20.99)
+                          ]
+         ),
+       
+                 Rest(name: "Lavish- لافيش",
+                                  type: "مشروبات-حلويات ",
+                                  State: "مفتوح",
+                                  rating: 4,
+                                  logo: "R5",
+                                  Foods: [
+                                     Food(name: " لاتيه", image: "r5i1", price: 35.99),
+                                     Food(name: " فرنش توست لافيش", image: "r5i2", price: 35.99),
+                                     Food(name: " افطار لافيش", image: "r5i3", price: 35.99)
+                                  ]
+                 ) ,
+                 Rest(name: "dough Source- دو سورس ",
+                                  type: "مأكولات  ",
+                                  State: "مفتوح",
+                                  rating: 4,
+                                  logo: "R6",
+                                  Foods: [
+                                     Food(name: " بيستو دجاج ", image: "r6i1", price: 35.99),
+                                     Food(name:" فاهيتا الدجاج ", image: "r6i2", price: 35.99),
+                                     Food(name:" كلوب ساندوتش ", image: "r6i3", price: 35.99)
+                                  ]
+                 ) ,
+                
                  Rest(name: " Little Caesars- ليتل سيزر",
                                   type: "بيتزا",
                                   State: "مفتوح",
@@ -72,4 +109,9 @@ Rest(name: "CHEF - شيف بايت",
                  )
 
 
+
+
+
 ]
+
+var counter: [String:Int] = [:]
