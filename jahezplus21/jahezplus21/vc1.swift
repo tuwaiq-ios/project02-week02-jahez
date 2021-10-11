@@ -22,7 +22,7 @@ class vc1:UIViewController,UITableViewDelegate,UITableViewDataSource{
         cell.restRating.text="\(rest.rating)"
         cell.restState.text = rest.isopen
         cell.restType.text = rest.type
-        
+       
         
     
         return cell
@@ -31,13 +31,17 @@ class vc1:UIViewController,UITableViewDelegate,UITableViewDataSource{
     @IBOutlet weak var restTV: UITableView!
     override func viewDidLoad() {
         
+       
         super.viewDidLoad()
         restTV.delegate=self
         restTV.dataSource=self
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-     
+        
         let rest = restList[indexPath.row]
+        let oldvalue = counter [rest.name] ?? 0
+       counter[rest.name] = oldvalue + 1
+ 
         performSegue(withIdentifier: "show_menue", sender: rest)
 
     }
@@ -45,9 +49,10 @@ class vc1:UIViewController,UITableViewDelegate,UITableViewDataSource{
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         
-        
         let vc2 = segue .destination as! VC2
         vc2.restfromvc1 = sender as? Rest
+        
+       
     }
     
 }

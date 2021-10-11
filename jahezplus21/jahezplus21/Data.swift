@@ -13,6 +13,8 @@ struct Rest{
     let rating:Int
     let logo:String
     let foods:Array<Food>
+    
+   
 }
 
 
@@ -61,7 +63,7 @@ let restList = [
     ]
 
 
-
+var counter:[String:Int]=[:]
 
 
 

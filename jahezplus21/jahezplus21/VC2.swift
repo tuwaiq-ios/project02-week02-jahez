@@ -12,6 +12,7 @@ class VC2:UIViewController,UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
 
         
         let food = restfromvc1!.foods[indexPath.row]
@@ -28,6 +29,7 @@ class VC2:UIViewController,UITableViewDelegate,UITableViewDataSource{
     
     var restfromvc1: Rest?
     
+    
     @IBOutlet weak var menueTV: UITableView!
     
     @IBOutlet weak var restLogo: UIImageView!
@@ -40,17 +42,25 @@ class VC2:UIViewController,UITableViewDelegate,UITableViewDataSource{
     @IBOutlet weak var restState: UILabel!
     
     @IBOutlet weak var restRating: UILabel!
+    
+    @IBOutlet weak var Counter: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         restName.text = restfromvc1?.name
         restType.text=restfromvc1?.type
         restState.text=restfromvc1?.isopen
         restLogo.image=UIImage(named: restfromvc1!.logo)
         restRating.text="\(restfromvc1!.rating)"
-        
+        Counter.text = "\(counter[restfromvc1!.name]!)"
+
+    
         menueTV.delegate=self
         menueTV.dataSource=self
+        
         
     }
     
 }
+
+
