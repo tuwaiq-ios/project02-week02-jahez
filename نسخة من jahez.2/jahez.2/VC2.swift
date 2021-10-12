@@ -34,7 +34,7 @@ class VC2: UIViewController, UITableViewDelegate,
         
     }
     
- 
+    
     var restFromVC1: Rest?
     
     @IBOutlet weak var menuTV: UITableView!
@@ -44,22 +44,15 @@ class VC2: UIViewController, UITableViewDelegate,
     @IBOutlet weak var restType: UILabel!
     @IBOutlet weak var restState: UILabel!
     @IBOutlet weak var restRating: UILabel!
-    @IBOutlet weak var restvisitor: UILabel!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let oldValue = counter[restFromVC1!.name] ?? 0
-        restvisitor.text = "\(oldValue)"
-        
-        
         restName.text = restFromVC1?.name
         restType.text = restFromVC1?.type
         restState.text = restFromVC1?.state
         restLogo.image = UIImage (named: restFromVC1!.logo)
         restRating.text = "\(restFromVC1!.rating)"
-
-        
+    
         menuTV.dataSource = self
         menuTV.delegate = self
     }

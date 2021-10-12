@@ -97,18 +97,11 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1b-pg-6tQ">
-                                <rect key="frame" x="12" y="112" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fyH-wX-yvs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Cvi-YR-6WH" firstAttribute="top" secondItem="GHc-2k-eHP" secondAttribute="bottom" constant="20" id="019-aL-rVJ"/>
-                            <constraint firstItem="s1b-pg-6tQ" firstAttribute="leading" secondItem="fyH-wX-yvs" secondAttribute="leading" constant="12" id="GHf-Za-AzK"/>
                             <constraint firstItem="fyH-wX-yvs" firstAttribute="bottom" secondItem="ip1-4k-Aw2" secondAttribute="bottom" id="O0t-ZP-Mgl"/>
                             <constraint firstItem="GHc-2k-eHP" firstAttribute="top" secondItem="uup-ES-AUL" secondAttribute="bottom" constant="16" id="S0Z-xM-RBW"/>
                             <constraint firstItem="LmL-kH-gKu" firstAttribute="leading" secondItem="Cvi-YR-6WH" secondAttribute="trailing" constant="12" id="UP9-s0-SYa"/>
@@ -120,7 +113,6 @@
                             <constraint firstItem="9PH-xa-9Gx" firstAttribute="top" secondItem="fyH-wX-yvs" secondAttribute="top" constant="34" id="lEM-YR-6e5"/>
                             <constraint firstItem="9PH-xa-9Gx" firstAttribute="leading" secondItem="fyH-wX-yvs" secondAttribute="leading" constant="16" id="ln7-zc-oGR"/>
                             <constraint firstItem="ip1-4k-Aw2" firstAttribute="top" secondItem="LmL-kH-gKu" secondAttribute="bottom" constant="10" id="uIl-HF-Afs"/>
-                            <constraint firstItem="s1b-pg-6tQ" firstAttribute="top" secondItem="9PH-xa-9Gx" secondAttribute="bottom" constant="57" id="uN3-w6-C6n"/>
                             <constraint firstItem="uup-ES-AUL" firstAttribute="top" secondItem="fyH-wX-yvs" secondAttribute="top" constant="34" id="uNo-CA-dQZ"/>
                             <constraint firstItem="fyH-wX-yvs" firstAttribute="trailing" secondItem="ip1-4k-Aw2" secondAttribute="trailing" id="yKX-bf-VLZ"/>
                         </constraints>
@@ -133,7 +125,6 @@
                         <outlet property="restRating" destination="9PH-xa-9Gx" id="1cX-aM-FUk"/>
                         <outlet property="restState" destination="Cvi-YR-6WH" id="IAb-Zk-B85"/>
                         <outlet property="restType" destination="GHc-2k-eHP" id="eEG-3h-a3L"/>
-                        <outlet property="restvisitor" destination="s1b-pg-6tQ" id="tuJ-IV-Uzy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="san-ji-vrR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

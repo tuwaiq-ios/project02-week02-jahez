@@ -68,19 +68,5 @@ let restList = [
             )
         
         ]
-    ),
-    Rest(
-        name: "لي تشورو ستيشن",
-        type: "حلا",
-        state: "مفتوح",
-        rating: 5 ,
-        logo:"le choros logo",
-        foods:  [
-            food(
-                name: "ميني تشورو",
-                image: "mini choros",
-                price: 15)
-            ]
-        )
-    ]
-var counter: [String:Int] = [:]
+    )
+]
