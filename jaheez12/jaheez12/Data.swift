@@ -32,7 +32,7 @@ let restList = [
         foods: [
             Food(
                 name : "بيتزا دجاج",
-                image : "maestro",
+                image : "بيتزا دجاج",
                 price : 6.99
             )
         ]
@@ -46,7 +46,7 @@ let restList = [
         foods: [
             Food(
                 name: "بيتزا",
-                image: "بيتزا دجاج",
+                image: "اوصال",
                 price: 20.5
             )
         ]
@@ -59,8 +59,8 @@ let restList = [
         logo: "هابي",
         foods: [
             Food(
-                name: "بيتزا",
-                image: "بيتزا دجاج",
+                name: "بروست عادي",
+                image:  "بروست",
                 price: 30.5
             )
         ]
