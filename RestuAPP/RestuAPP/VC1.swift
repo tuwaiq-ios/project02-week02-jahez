@@ -21,8 +21,21 @@ class VC1: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         cell.restName.text = rest.name
         cell.restLogo.image = UIImage(named: rest.logo)
+     
+        cell.restLogo.layer.cornerRadius = 25
         cell.restRating.text = "\(rest.rating)"
         cell.restState.text = rest.State
+        
+        if rest.State != "مفتوح"  {
+            cell.restState.textColor = UIColor(red: 183/255, green: 22/255, blue: 22/255, alpha: 1)
+                
+           }
+        else {
+            cell.restState.textColor =  UIColor(red: 53/255, green: 134/255, blue: 0, alpha: 1)
+            
+            
+        }
+        
         cell.restType.text = rest.type
         
         

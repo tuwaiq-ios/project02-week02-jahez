@@ -25,6 +25,8 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell.foodName.text = food.name
         cell.foodPrice.text = "\(food.price)"
          cell.foodImage.image = UIImage(named: food.image )
+        
+        cell.foodImage.layer.cornerRadius = 22
         return cell
     }
     
@@ -37,6 +39,12 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var restType: UILabel!
     @IBOutlet weak var restState: UILabel!
     @IBOutlet weak var restRating: UILabel!
+    
+    
+    @IBOutlet weak var restAdd: UILabel!
+    
+    @IBOutlet weak var restPho: UILabel!
+    
     // for count
     @IBOutlet weak var countLabel: UILabel!
     
@@ -46,9 +54,24 @@ class VC2: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         restName.text = restFromVC1?.name
         restLogo.image = UIImage(named: restFromVC1!.logo)
+      
+        restLogo.layer.cornerRadius = 34
         restType.text = restFromVC1?.type
         restState.text = restFromVC1?.State
+        
+        if restFromVC1?.State != "مفتوح"  {
+            restState.textColor = UIColor(red: 183/255, green: 23/255, blue: 23/255, alpha: 1)
+                
+           }
+        else {
+            restState.textColor =  UIColor(red: 53/255, green: 134/255, blue: 0, alpha: 1)
+            
+            
+        }
         restRating.text = "\(restFromVC1!.rating)"
+        
+        restAdd.text = restFromVC1?.addres
+        restPho.text = restFromVC1?.phone
         
         countLabel.text = "\(counter[restFromVC1!.name]!) "
         

@@ -16,17 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Food &amp; Drinks" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-CH-lFT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Food &amp; Drinks" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-CH-lFT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="KOX-RA-y5y"/>
+                                    <constraint firstAttribute="height" constant="896" id="Wh8-f6-kL6"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eEi-CH-lFT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2jN-8J-Ujx"/>
-                            <constraint firstItem="eEi-CH-lFT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Rd-JZ-FgF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eEi-CH-lFT" secondAttribute="bottom" id="sL2-HW-p0O"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eEi-CH-lFT" secondAttribute="trailing" id="xnf-qS-mwV"/>
+                            <constraint firstAttribute="bottom" secondItem="eEi-CH-lFT" secondAttribute="bottom" id="4sv-1c-bMo"/>
+                            <constraint firstItem="eEi-CH-lFT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F5J-e3-Lpt"/>
+                            <constraint firstItem="eEi-CH-lFT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aE7-xm-kcw"/>
+                            <constraint firstItem="eEi-CH-lFT" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nmm-Cn-q9u"/>
                         </constraints>
                     </view>
                 </viewController>
